@@ -40,33 +40,31 @@ using t_GroupSizes = std::vector<std::vector<std::size_t>>;
 t_Karters get_karters() {
   t_Karters karters;
 
-  karters.emplace_back("Inigo",    36.160, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("BertP",    36.881, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("Kyle",     36.992, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("Steven",   37.170, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Joost",    37.600, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("Ruben",    37.608, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Matteo",   37.792, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Pieter",   37.875, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("BertV",    37.934, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Matt",     37.956, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Mike",     38.025, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Jasper",   38.025, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("Tim",      38.036, 1.0, 1, std::initializer_list<std::size_t>{});
-  karters.emplace_back("StefD",    38.096, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Maarten",  38.346, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Stefaan",  38.599, 0.9, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Finley",   39.001, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Dario",    39.096, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("StefM",    39.262, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Thomas",   39.409, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Emil",     39.413, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Jeff",     40.488, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Stijn",    40.606, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Toon",     41.719, 1.0, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Ilse",     41.905, 0.5, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Emiliano", 42.338, 0.6, 0, std::initializer_list<std::size_t>{2});
-  karters.emplace_back("Bart",     44.704, 0.5, 0, std::initializer_list<std::size_t>{2});
+  karters.emplace_back("Inigo",         34.502, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Kyle",          34.688, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("BertP",         35.065, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("RubenH",        35.163, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Sam",           35.251, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Yrjo",          35.404, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("StefD",         35.372, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Jean-Philippe", 35.430, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Jonas",         35.404, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Steven",        35.477, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("PieterR",       35.852, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Joost",         35.886, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Gert",          35.884, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Stefaan",       35.899, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Karel",         36.068, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Maarten",       36.169, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Willem",        36.112, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Stephanie",     36.423, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("TimM",          36.387, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Mauro",         36.564, 0.7, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("Emil",          36.640, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("StijnS",        37.720, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("RubenD",        38.027, 1.0, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("BartG",         38.325, 0.4, 0, std::initializer_list<std::size_t>{});
+  karters.emplace_back("StijnC",        38.729, 0.7, 0, std::initializer_list<std::size_t>{});
 
   return karters;
 }
@@ -75,9 +73,8 @@ t_GroupSizes get_group_sizes() {
 
   t_GroupSizes groupSizes;
 
-  groupSizes.emplace_back(std::initializer_list<std::size_t>{3, 3, 3, 3,
-                                                             3, 3, 3});
-  groupSizes.emplace_back(std::initializer_list<std::size_t>{2, 2, 2});
+  groupSizes.emplace_back(std::initializer_list<std::size_t>{3, 3, 3, 3, 3,
+                                                             3, 3, 2, 2});
 
   return groupSizes;
 }

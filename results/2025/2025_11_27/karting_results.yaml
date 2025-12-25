@@ -1,0 +1,1841 @@
+race_name: "2 uren race - Finale - 20:00 - Sodi 270cc 27/11/2025"
+results:
+  - team_name: "FAST FORMATTING TEAM"
+    finish_position: 1
+    kart_number: 2
+    distance_to_winner: "0 sec"
+    laps:
+      - {time: 35.695, driver: "RubenH"}
+      - {time: 35.624, driver: "RubenH"}
+      - {time: 35.388, driver: "RubenH"}
+      - {time: 35.239, driver: "RubenH"}
+      - {time: 35.127, driver: "RubenH"}
+      - {time: 35.247, driver: "RubenH"}
+      - {time: 35.324, driver: "RubenH"}
+      - {time: 35.244, driver: "RubenH"}
+      - {time: 35.256, driver: "RubenH"}
+      - {time: 35.319, driver: "RubenH"}
+      - {time: 35.587, driver: "RubenH"}
+      - {time: 35.625, driver: "RubenH"}
+      - {time: 35.344, driver: "RubenH"}
+      - {time: 35.242, driver: "RubenH"}
+      - {time: 34.766, driver: "RubenH"}
+      - {time: 35.448, driver: "RubenH"}
+      - {time: 35.597, driver: "RubenH"}
+      - {time: 35.133, driver: "RubenH"}
+      - {time: 34.8  , driver: "RubenH"}
+      - {time: 35.383, driver: "RubenH"}
+      - {time: 35.448, driver: "RubenH"}
+      - {time: 35.53 , driver: "RubenH"}
+      - {time: 35.033, driver: "RubenH"}
+      - {time: 35.427, driver: "RubenH"}
+      - {time: 35.005, driver: "RubenH"}
+      - {time: 35.236, driver: "RubenH"}
+      - {time: 35.375, driver: "RubenH"}
+      - {time: 35.423, driver: "RubenH"}
+      - {time: 35.371, driver: "RubenH"}
+      - {time: 35.244, driver: "RubenH"}
+      - {time: 34.902, driver: "RubenH"}
+      - {time: 35.09 , driver: "RubenH"}
+      - {time: 34.952, driver: "RubenH"}
+      - {time: 35.164, driver: "RubenH"}
+      - {time: 49.293, driver: "Pit"}
+      - {time: 38.702, driver: "Karel"}
+      - {time: 37.174, driver: "Karel"}
+      - {time: 36.332, driver: "Karel"}
+      - {time: 36.393, driver: "Karel"}
+      - {time: 36.602, driver: "Karel"}
+      - {time: 35.976, driver: "Karel"}
+      - {time: 36.537, driver: "Karel"}
+      - {time: 35.947, driver: "Karel"}
+      - {time: 35.721, driver: "Karel"}
+      - {time: 37.134, driver: "Karel"}
+      - {time: 37.599, driver: "Karel"}
+      - {time: 36.481, driver: "Karel"}
+      - {time: 35.699, driver: "Karel"}
+      - {time: 35.872, driver: "Karel"}
+      - {time: 36.33 , driver: "Karel"}
+      - {time: 36.684, driver: "Karel"}
+      - {time: 36.266, driver: "Karel"}
+      - {time: 35.857, driver: "Karel"}
+      - {time: 37.322, driver: "Karel"}
+      - {time: 38.306, driver: "Karel"}
+      - {time: 38.21 , driver: "Karel"}
+      - {time: 36.93 , driver: "Karel"}
+      - {time: 36.388, driver: "Karel"}
+      - {time: 36.331, driver: "Karel"}
+      - {time: 36.744, driver: "Karel"}
+      - {time: 36.28 , driver: "Karel"}
+      - {time: 35.895, driver: "Karel"}
+      - {time: 36.309, driver: "Karel"}
+      - {time: 36.865, driver: "Karel"}
+      - {time: 35.96 , driver: "Karel"}
+      - {time: 36.728, driver: "Karel"}
+      - {time: 38.171, driver: "Karel"}
+      - {time: 36.453, driver: "Karel"}
+      - {time: 36.453, driver: "Karel"}
+      - {time: 52.641, driver: "Pit"}
+      - {time: 36.136, driver: "RubenH"}
+      - {time: 35.474, driver: "RubenH"}
+      - {time: 35.066, driver: "RubenH"}
+      - {time: 35.153, driver: "RubenH"}
+      - {time: 35.487, driver: "RubenH"}
+      - {time: 35.324, driver: "RubenH"}
+      - {time: 34.75 , driver: "RubenH"}
+      - {time: 35.511, driver: "RubenH"}
+      - {time: 35.237, driver: "RubenH"}
+      - {time: 35.037, driver: "RubenH"}
+      - {time: 34.83 , driver: "RubenH"}
+      - {time: 35.07 , driver: "RubenH"}
+      - {time: 34.97 , driver: "RubenH"}
+      - {time: 34.94 , driver: "RubenH"}
+      - {time: 34.994, driver: "RubenH"}
+      - {time: 34.787, driver: "RubenH"}
+      - {time: 34.707, driver: "RubenH"}
+      - {time: 34.737, driver: "RubenH"}
+      - {time: 34.903, driver: "RubenH"}
+      - {time: 38.249, driver: "RubenH"}
+      - {time: 36.586, driver: "RubenH"}
+      - {time: 35.969, driver: "RubenH"}
+      - {time: 35.417, driver: "RubenH"}
+      - {time: 34.944, driver: "RubenH"}
+      - {time: 35.037, driver: "RubenH"}
+      - {time: 35.583, driver: "RubenH"}
+      - {time: 36.053, driver: "RubenH"}
+      - {time: 36.254, driver: "RubenH"}
+      - {time: 34.706, driver: "RubenH"}
+      - {time: 35.084, driver: "RubenH"}
+      - {time: 34.941, driver: "RubenH"}
+      - {time: 34.909, driver: "RubenH"}
+      - {time: 35.205, driver: "RubenH"}
+      - {time: 34.677, driver: "RubenH"}
+      - {time: 34.752, driver: "RubenH"}
+      - {time: 48.089, driver: "Pit"}
+      - {time: 36.318, driver: "Karel"}
+      - {time: 36.048, driver: "Karel"}
+      - {time: 35.657, driver: "Karel"}
+      - {time: 35.829, driver: "Karel"}
+      - {time: 35.821, driver: "Karel"}
+      - {time: 35.699, driver: "Karel"}
+      - {time: 36.086, driver: "Karel"}
+      - {time: 35.778, driver: "Karel"}
+      - {time: 36.02 , driver: "Karel"}
+      - {time: 35.697, driver: "Karel"}
+      - {time: 35.479, driver: "Karel"}
+      - {time: 36.017, driver: "Karel"}
+      - {time: 35.769, driver: "Karel"}
+      - {time: 35.97 , driver: "Karel"}
+      - {time: 35.373, driver: "Karel"}
+      - {time: 35.251, driver: "Karel"}
+      - {time: 35.969, driver: "Karel"}
+      - {time: 36.791, driver: "Karel"}
+      - {time: 36.532, driver: "Karel"}
+      - {time: 36.081, driver: "Karel"}
+      - {time: 35.954, driver: "Karel"}
+      - {time: 35.716, driver: "Karel"}
+      - {time: 35.591, driver: "Karel"}
+      - {time: 35.74 , driver: "Karel"}
+      - {time: 36.608, driver: "Karel"}
+      - {time: 36.222, driver: "Karel"}
+      - {time: 36.068, driver: "Karel"}
+      - {time: 35.884, driver: "Karel"}
+      - {time: 47.912, driver: "Pit"}
+      - {time: 36.471, driver: "RubenH"}
+      - {time: 37.277, driver: "RubenH"}
+      - {time: 34.832, driver: "RubenH"}
+      - {time: 34.96 , driver: "RubenH"}
+      - {time: 34.677, driver: "RubenH"}
+      - {time: 34.741, driver: "RubenH"}
+      - {time: 34.946, driver: "RubenH"}
+      - {time: 34.864, driver: "RubenH"}
+      - {time: 34.742, driver: "RubenH"}
+      - {time: 34.967, driver: "RubenH"}
+      - {time: 34.584, driver: "RubenH"}
+      - {time: 34.685, driver: "RubenH"}
+      - {time: 34.904, driver: "RubenH"}
+      - {time: 34.898, driver: "RubenH"}
+      - {time: 35.55 , driver: "RubenH"}
+      - {time: 34.665, driver: "RubenH"}
+      - {time: 34.83 , driver: "RubenH"}
+      - {time: 34.963, driver: "RubenH"}
+      - {time: 35.063, driver: "RubenH"}
+      - {time: 34.668, driver: "RubenH"}
+      - {time: 34.842, driver: "RubenH"}
+      - {time: 34.964, driver: "RubenH"}
+      - {time: 34.751, driver: "RubenH"}
+      - {time: 34.46 , driver: "RubenH"}
+      - {time: 34.609, driver: "RubenH"}
+      - {time: 34.74 , driver: "RubenH"}
+      - {time: 34.792, driver: "RubenH"}
+      - {time: 34.451, driver: "RubenH"}
+      - {time: 35.414, driver: "RubenH"}
+      - {time: 34.314, driver: "RubenH"}
+      - {time: 34.727, driver: "RubenH"}
+      - {time: 34.971, driver: "RubenH"}
+      - {time: 34.637, driver: "RubenH"}
+      - {time: 34.495, driver: "RubenH"}
+      - {time: 34.754, driver: "RubenH"}
+      - {time: 34.854, driver: "RubenH"}
+      - {time: 46.234, driver: "Pit"}
+      - {time: 36.598, driver: "Karel"}
+      - {time: 36.541, driver: "Karel"}
+      - {time: 35.404, driver: "Karel"}
+      - {time: 35.765, driver: "Karel"}
+      - {time: 35.646, driver: "Karel"}
+      - {time: 35.331, driver: "Karel"}
+      - {time: 35.34 , driver: "Karel"}
+      - {time: 37.244, driver: "Karel"}
+      - {time: 35.149, driver: "Karel"}
+      - {time: 35.286, driver: "Karel"}
+      - {time: 34.748, driver: "Karel"}
+      - {time: 35.032, driver: "Karel"}
+      - {time: 34.934, driver: "Karel"}
+      - {time: 34.908, driver: "Karel"}
+      - {time: 35.208, driver: "Karel"}
+      - {time: 36.279, driver: "Karel"}
+      - {time: 35.111, driver: "Karel"}
+      - {time: 35.262, driver: "Karel"}
+      - {time: 35.43 , driver: "Karel"}
+      - {time: 35.289, driver: "Karel"}
+      - {time: 35.303, driver: "Karel"}
+      - {time: 35.771, driver: "Karel"}
+      - {time: 35.861, driver: "Karel"}
+      - {time: 35.459, driver: "Karel"}
+      - {time: 35.41 , driver: "Karel"}
+      - {time: 34.883, driver: "Karel"}
+      - {time: 35.731, driver: "Karel"}
+      - {time: 35.048, driver: "Karel"}
+      - {time: 35.645, driver: "Karel"}
+  - team_name: "RACING PAWNS"
+    finish_position: 2
+    kart_number: 14
+    distance_to_winner: "9.668 sec"
+    laps:
+      - {time: 37.205, driver: "Willem"}
+      - {time: 36.45 , driver: "Willem"}
+      - {time: 36.223, driver: "Willem"}
+      - {time: 37.004, driver: "Willem"}
+      - {time: 36.213, driver: "Willem"}
+      - {time: 36.277, driver: "Willem"}
+      - {time: 36.133, driver: "Willem"}
+      - {time: 35.925, driver: "Willem"}
+      - {time: 36.357, driver: "Willem"}
+      - {time: 36.758, driver: "Willem"}
+      - {time: 36.991, driver: "Willem"}
+      - {time: 37.284, driver: "Willem"}
+      - {time: 36.814, driver: "Willem"}
+      - {time: 36.108, driver: "Willem"}
+      - {time: 36.147, driver: "Willem"}
+      - {time: 36.597, driver: "Willem"}
+      - {time: 35.686, driver: "Willem"}
+      - {time: 36.811, driver: "Willem"}
+      - {time: 35.921, driver: "Willem"}
+      - {time: 36.374, driver: "Willem"}
+      - {time: 35.922, driver: "Willem"}
+      - {time: 35.92 , driver: "Willem"}
+      - {time: 36.008, driver: "Willem"}
+      - {time: 35.79 , driver: "Willem"}
+      - {time: 35.774, driver: "Willem"}
+      - {time: 36.096, driver: "Willem"}
+      - {time: 36.025, driver: "Willem"}
+      - {time: 36.04 , driver: "Willem"}
+      - {time: 36.109, driver: "Willem"}
+      - {time: 36.029, driver: "Willem"}
+      - {time: 36.138, driver: "Willem"}
+      - {time: 49.683, driver: "Pit"}
+      - {time: 36.099, driver: "StefD"}
+      - {time: 36.541, driver: "StefD"}
+      - {time: 36.113, driver: "StefD"}
+      - {time: 34.849, driver: "StefD"}
+      - {time: 35.477, driver: "StefD"}
+      - {time: 35.464, driver: "StefD"}
+      - {time: 35.714, driver: "StefD"}
+      - {time: 35.259, driver: "StefD"}
+      - {time: 35.069, driver: "StefD"}
+      - {time: 35.584, driver: "StefD"}
+      - {time: 35.265, driver: "StefD"}
+      - {time: 35.25 , driver: "StefD"}
+      - {time: 35.582, driver: "StefD"}
+      - {time: 35.69 , driver: "StefD"}
+      - {time: 35.184, driver: "StefD"}
+      - {time: 35.832, driver: "StefD"}
+      - {time: 35.334, driver: "StefD"}
+      - {time: 35.836, driver: "StefD"}
+      - {time: 35.374, driver: "StefD"}
+      - {time: 35.34 , driver: "StefD"}
+      - {time: 35.223, driver: "StefD"}
+      - {time: 35.967, driver: "StefD"}
+      - {time: 36.377, driver: "StefD"}
+      - {time: 35.17 , driver: "StefD"}
+      - {time: 35.513, driver: "StefD"}
+      - {time: 36.075, driver: "StefD"}
+      - {time: 36.629, driver: "StefD"}
+      - {time: 36.301, driver: "StefD"}
+      - {time: 35.888, driver: "StefD"}
+      - {time: 35.267, driver: "StefD"}
+      - {time: 35.389, driver: "StefD"}
+      - {time: 35.493, driver: "StefD"}
+      - {time: 35.412, driver: "StefD"}
+      - {time: 48.847, driver: "Pit"}
+      - {time: 35.661, driver: "Sam"}
+      - {time: 35.659, driver: "Sam"}
+      - {time: 35.417, driver: "Sam"}
+      - {time: 35.724, driver: "Sam"}
+      - {time: 35.4  , driver: "Sam"}
+      - {time: 35.062, driver: "Sam"}
+      - {time: 35.533, driver: "Sam"}
+      - {time: 35.175, driver: "Sam"}
+      - {time: 35.121, driver: "Sam"}
+      - {time: 36.081, driver: "Sam"}
+      - {time: 34.902, driver: "Sam"}
+      - {time: 34.935, driver: "Sam"}
+      - {time: 34.945, driver: "Sam"}
+      - {time: 35.569, driver: "Sam"}
+      - {time: 35.201, driver: "Sam"}
+      - {time: 35.134, driver: "Sam"}
+      - {time: 34.99 , driver: "Sam"}
+      - {time: 34.954, driver: "Sam"}
+      - {time: 34.788, driver: "Sam"}
+      - {time: 35.235, driver: "Sam"}
+      - {time: 34.753, driver: "Sam"}
+      - {time: 35.073, driver: "Sam"}
+      - {time: 35.399, driver: "Sam"}
+      - {time: 39.211, driver: "Sam"}
+      - {time: 35.565, driver: "Sam"}
+      - {time: 35.157, driver: "Sam"}
+      - {time: 35.453, driver: "Sam"}
+      - {time: 36.976, driver: "Sam"}
+      - {time: 35.95 , driver: "Sam"}
+      - {time: 35.892, driver: "Sam"}
+      - {time: 46.379, driver: "Pit"}
+      - {time: 35.925, driver: "Sam"}
+      - {time: 48.209, driver: "Pit"}
+      - {time: 36.308, driver: "Willem"}
+      - {time: 35.766, driver: "Willem"}
+      - {time: 35.721, driver: "Willem"}
+      - {time: 35.71 , driver: "Willem"}
+      - {time: 36.612, driver: "Willem"}
+      - {time: 36.234, driver: "Willem"}
+      - {time: 35.611, driver: "Willem"}
+      - {time: 35.87 , driver: "Willem"}
+      - {time: 35.671, driver: "Willem"}
+      - {time: 35.936, driver: "Willem"}
+      - {time: 35.692, driver: "Willem"}
+      - {time: 35.567, driver: "Willem"}
+      - {time: 35.864, driver: "Willem"}
+      - {time: 36.641, driver: "Willem"}
+      - {time: 35.857, driver: "Willem"}
+      - {time: 36.094, driver: "Willem"}
+      - {time: 36.651, driver: "Willem"}
+      - {time: 36.456, driver: "Willem"}
+      - {time: 37.003, driver: "Willem"}
+      - {time: 35.54 , driver: "Willem"}
+      - {time: 35.629, driver: "Willem"}
+      - {time: 35.673, driver: "Willem"}
+      - {time: 35.642, driver: "Willem"}
+      - {time: 35.956, driver: "Willem"}
+      - {time: 35.826, driver: "Willem"}
+      - {time: 35.724, driver: "Willem"}
+      - {time: 35.631, driver: "Willem"}
+      - {time: 35.998, driver: "Willem"}
+      - {time: 35.662, driver: "Willem"}
+      - {time: 35.681, driver: "Willem"}
+      - {time: 35.935, driver: "Willem"}
+      - {time: 35.773, driver: "Willem"}
+      - {time: 49.206, driver: "Pit"}
+      - {time: 35.398, driver: "StefD"}
+      - {time: 35.236, driver: "StefD"}
+      - {time: 35.268, driver: "StefD"}
+      - {time: 35.28 , driver: "StefD"}
+      - {time: 35.484, driver: "StefD"}
+      - {time: 34.857, driver: "StefD"}
+      - {time: 35.154, driver: "StefD"}
+      - {time: 35.436, driver: "StefD"}
+      - {time: 34.978, driver: "StefD"}
+      - {time: 35.582, driver: "StefD"}
+      - {time: 35.266, driver: "StefD"}
+      - {time: 35.122, driver: "StefD"}
+      - {time: 35.366, driver: "StefD"}
+      - {time: 34.997, driver: "StefD"}
+      - {time: 34.647, driver: "StefD"}
+      - {time: 36    , driver: "StefD"}
+      - {time: 35.019, driver: "StefD"}
+      - {time: 34.854, driver: "StefD"}
+      - {time: 34.95 , driver: "StefD"}
+      - {time: 34.885, driver: "StefD"}
+      - {time: 35.02 , driver: "StefD"}
+      - {time: 35.117, driver: "StefD"}
+      - {time: 34.809, driver: "StefD"}
+      - {time: 34.785, driver: "StefD"}
+      - {time: 34.954, driver: "StefD"}
+      - {time: 34.973, driver: "StefD"}
+      - {time: 34.872, driver: "StefD"}
+      - {time: 35.283, driver: "StefD"}
+      - {time: 34.991, driver: "StefD"}
+      - {time: 35.058, driver: "StefD"}
+      - {time: 35.117, driver: "StefD"}
+      - {time: 34.923, driver: "StefD"}
+      - {time: 47.273, driver: "Pit"}
+      - {time: 35.045, driver: "Sam"}
+      - {time: 34.596, driver: "Sam"}
+      - {time: 35.439, driver: "Sam"}
+      - {time: 34.773, driver: "Sam"}
+      - {time: 35.086, driver: "Sam"}
+      - {time: 34.825, driver: "Sam"}
+      - {time: 34.992, driver: "Sam"}
+      - {time: 34.928, driver: "Sam"}
+      - {time: 36.596, driver: "Sam"}
+      - {time: 34.81 , driver: "Sam"}
+      - {time: 35.05 , driver: "Sam"}
+      - {time: 34.717, driver: "Sam"}
+      - {time: 34.841, driver: "Sam"}
+      - {time: 35.677, driver: "Sam"}
+      - {time: 35.202, driver: "Sam"}
+      - {time: 35.099, driver: "Sam"}
+      - {time: 34.925, driver: "Sam"}
+      - {time: 34.962, driver: "Sam"}
+      - {time: 35.084, driver: "Sam"}
+      - {time: 36.012, driver: "Sam"}
+      - {time: 34.734, driver: "Sam"}
+      - {time: 35.179, driver: "Sam"}
+      - {time: 35.265, driver: "Sam"}
+      - {time: 34.832, driver: "Sam"}
+      - {time: 34.661, driver: "Sam"}
+      - {time: 35.366, driver: "Sam"}
+      - {time: 34.796, driver: "Sam"}
+      - {time: 34.518, driver: "Sam"}
+      - {time: 34.66 , driver: "Sam"}
+      - {time: 34.636, driver: "Sam"}
+      - {time: 34.778, driver: "Sam"}
+      - {time: 34.946, driver: "Sam"}
+      - {time: 35.37 , driver: "Sam"}
+      - {time: 34.671, driver: "Sam"}
+      - {time: 34.914, driver: "Sam"}
+      - {time: 35.026, driver: "Sam"}
+  - team_name: "DODGY DONUTS"
+    finish_position: 3
+    kart_number: 18
+    distance_to_winner: "20.974 sec"
+    laps:
+      - {time: 35.186, driver: "Kyle"}
+      - {time: 34.642, driver: "Kyle"}
+      - {time: 34.696, driver: "Kyle"}
+      - {time: 34.726, driver: "Kyle"}
+      - {time: 34.495, driver: "Kyle"}
+      - {time: 34.56 , driver: "Kyle"}
+      - {time: 34.679, driver: "Kyle"}
+      - {time: 34.634, driver: "Kyle"}
+      - {time: 34.702, driver: "Kyle"}
+      - {time: 34.846, driver: "Kyle"}
+      - {time: 34.524, driver: "Kyle"}
+      - {time: 34.822, driver: "Kyle"}
+      - {time: 34.783, driver: "Kyle"}
+      - {time: 35.09 , driver: "Kyle"}
+      - {time: 34.92 , driver: "Kyle"}
+      - {time: 34.528, driver: "Kyle"}
+      - {time: 34.489, driver: "Kyle"}
+      - {time: 34.826, driver: "Kyle"}
+      - {time: 34.796, driver: "Kyle"}
+      - {time: 34.824, driver: "Kyle"}
+      - {time: 34.811, driver: "Kyle"}
+      - {time: 35.399, driver: "Kyle"}
+      - {time: 34.783, driver: "Kyle"}
+      - {time: 34.677, driver: "Kyle"}
+      - {time: 34.686, driver: "Kyle"}
+      - {time: 34.697, driver: "Kyle"}
+      - {time: 35.029, driver: "Kyle"}
+      - {time: 34.68 , driver: "Kyle"}
+      - {time: 34.588, driver: "Kyle"}
+      - {time: 34.719, driver: "Kyle"}
+      - {time: 34.58 , driver: "Kyle"}
+      - {time: 34.621, driver: "Kyle"}
+      - {time: 34.574, driver: "Kyle"}
+      - {time: 34.502, driver: "Kyle"}
+      - {time: 34.62 , driver: "Kyle"}
+      - {time: 34.645, driver: "Kyle"}
+      - {time: 35.305, driver: "Kyle"}
+      - {time: 34.553, driver: "Kyle"}
+      - {time: 34.66 , driver: "Kyle"}
+      - {time: 34.807, driver: "Kyle"}
+      - {time: 34.863, driver: "Kyle"}
+      - {time: 34.795, driver: "Kyle"}
+      - {time: 34.781, driver: "Kyle"}
+      - {time: 34.892, driver: "Kyle"}
+      - {time: 49.442, driver: "Pit"}
+      - {time: 37.81 , driver: "StijnS"}
+      - {time: 37.572, driver: "StijnS"}
+      - {time: 38.005, driver: "StijnS"}
+      - {time: 37.941, driver: "StijnS"}
+      - {time: 37.601, driver: "StijnS"}
+      - {time: 42.571, driver: "StijnS"}
+      - {time: 39.177, driver: "StijnS"}
+      - {time: 37.19 , driver: "StijnS"}
+      - {time: 37.011, driver: "StijnS"}
+      - {time: 36.814, driver: "StijnS"}
+      - {time: 39.342, driver: "StijnS"}
+      - {time: 38.289, driver: "StijnS"}
+      - {time: 43.365, driver: "StijnS"}
+      - {time: 37.266, driver: "StijnS"}
+      - {time: 36.953, driver: "StijnS"}
+      - {time: 36.711, driver: "StijnS"}
+      - {time: 36.911, driver: "StijnS"}
+      - {time: 37.204, driver: "StijnS"}
+      - {time: 44.131, driver: "StijnS"}
+      - {time: 37.665, driver: "StijnS"}
+      - {time: 36.795, driver: "StijnS"}
+      - {time: 37.406, driver: "StijnS"}
+      - {time: 37.076, driver: "StijnS"}
+      - {time: 36.722, driver: "StijnS"}
+      - {time: 36.975, driver: "StijnS"}
+      - {time: 36.301, driver: "StijnS"}
+      - {time: 38.026, driver: "StijnS"}
+      - {time: 54.14 , driver: "Pit"}
+      - {time: 35.046, driver: "Kyle"}
+      - {time: 34.795, driver: "Kyle"}
+      - {time: 35.032, driver: "Kyle"}
+      - {time: 34.718, driver: "Kyle"}
+      - {time: 34.991, driver: "Kyle"}
+      - {time: 34.395, driver: "Kyle"}
+      - {time: 34.712, driver: "Kyle"}
+      - {time: 34.449, driver: "Kyle"}
+      - {time: 34.996, driver: "Kyle"}
+      - {time: 36.478, driver: "Kyle"}
+      - {time: 34.476, driver: "Kyle"}
+      - {time: 34.679, driver: "Kyle"}
+      - {time: 34.553, driver: "Kyle"}
+      - {time: 34.95 , driver: "Kyle"}
+      - {time: 34.54 , driver: "Kyle"}
+      - {time: 34.429, driver: "Kyle"}
+      - {time: 36.231, driver: "Kyle"}
+      - {time: 35.082, driver: "Kyle"}
+      - {time: 35.003, driver: "Kyle"}
+      - {time: 34.608, driver: "Kyle"}
+      - {time: 35.502, driver: "Kyle"}
+      - {time: 35.99 , driver: "Kyle"}
+      - {time: 35.597, driver: "Kyle"}
+      - {time: 34.706, driver: "Kyle"}
+      - {time: 34.67 , driver: "Kyle"}
+      - {time: 34.352, driver: "Kyle"}
+      - {time: 34.57 , driver: "Kyle"}
+      - {time: 34.549, driver: "Kyle"}
+      - {time: 34.301, driver: "Kyle"}
+      - {time: 34.482, driver: "Kyle"}
+      - {time: 34.453, driver: "Kyle"}
+      - {time: 34.901, driver: "Kyle"}
+      - {time: 34.484, driver: "Kyle"}
+      - {time: 34.398, driver: "Kyle"}
+      - {time: 34.449, driver: "Kyle"}
+      - {time: 34.66 , driver: "Kyle"}
+      - {time: 34.762, driver: "Kyle"}
+      - {time: 35.33 , driver: "Kyle"}
+      - {time: 34.605, driver: "Kyle"}
+      - {time: 34.342, driver: "Kyle"}
+      - {time: 34.528, driver: "Kyle"}
+      - {time: 53.19 , driver: "Pit"}
+      - {time: 39.458, driver: "StijnS"}
+      - {time: 36.741, driver: "StijnS"}
+      - {time: 36.56 , driver: "StijnS"}
+      - {time: 36.982, driver: "StijnS"}
+      - {time: 36.769, driver: "StijnS"}
+      - {time: 37.169, driver: "StijnS"}
+      - {time: 36.533, driver: "StijnS"}
+      - {time: 36.629, driver: "StijnS"}
+      - {time: 37.347, driver: "StijnS"}
+      - {time: 36.837, driver: "StijnS"}
+      - {time: 37.039, driver: "StijnS"}
+      - {time: 36.432, driver: "StijnS"}
+      - {time: 38.171, driver: "StijnS"}
+      - {time: 37.217, driver: "StijnS"}
+      - {time: 36.909, driver: "StijnS"}
+      - {time: 36.854, driver: "StijnS"}
+      - {time: 37.547, driver: "StijnS"}
+      - {time: 37.427, driver: "StijnS"}
+      - {time: 37.246, driver: "StijnS"}
+      - {time: 37.155, driver: "StijnS"}
+      - {time: 37.299, driver: "StijnS"}
+      - {time: 38.304, driver: "StijnS"}
+      - {time: 38.061, driver: "StijnS"}
+      - {time: 37.119, driver: "StijnS"}
+      - {time: 37.264, driver: "StijnS"}
+      - {time: 39.397, driver: "StijnS"}
+      - {time: 37.511, driver: "StijnS"}
+      - {time: 37.999, driver: "StijnS"}
+      - {time: 37.294, driver: "StijnS"}
+      - {time: 37.664, driver: "StijnS"}
+      - {time: 37.217, driver: "StijnS"}
+      - {time: 37.97 , driver: "StijnS"}
+      - {time: 38.268, driver: "StijnS"}
+      - {time: 51.595, driver: "Pit"}
+      - {time: 34.617, driver: "Kyle"}
+      - {time: 34.905, driver: "Kyle"}
+      - {time: 34.348, driver: "Kyle"}
+      - {time: 34.56 , driver: "Kyle"}
+      - {time: 34.443, driver: "Kyle"}
+      - {time: 34.407, driver: "Kyle"}
+      - {time: 34.335, driver: "Kyle"}
+      - {time: 34.32 , driver: "Kyle"}
+      - {time: 34.536, driver: "Kyle"}
+      - {time: 34.473, driver: "Kyle"}
+      - {time: 34.661, driver: "Kyle"}
+      - {time: 34.271, driver: "Kyle"}
+      - {time: 34.406, driver: "Kyle"}
+      - {time: 34.373, driver: "Kyle"}
+      - {time: 34.187, driver: "Kyle"}
+      - {time: 34.255, driver: "Kyle"}
+      - {time: 34.258, driver: "Kyle"}
+      - {time: 34.529, driver: "Kyle"}
+      - {time: 34.345, driver: "Kyle"}
+      - {time: 34.512, driver: "Kyle"}
+      - {time: 34.415, driver: "Kyle"}
+      - {time: 34.335, driver: "Kyle"}
+      - {time: 34.38 , driver: "Kyle"}
+      - {time: 34.431, driver: "Kyle"}
+      - {time: 35.432, driver: "Kyle"}
+      - {time: 34.672, driver: "Kyle"}
+      - {time: 34.397, driver: "Kyle"}
+      - {time: 35.142, driver: "Kyle"}
+      - {time: 34.373, driver: "Kyle"}
+      - {time: 34.386, driver: "Kyle"}
+      - {time: 34.313, driver: "Kyle"}
+      - {time: 51.41 , driver: "Pit"}
+      - {time: 34.608, driver: "Kyle"}
+      - {time: 34.996, driver: "Kyle"}
+      - {time: 35.233, driver: "Kyle"}
+      - {time: 34.775, driver: "Kyle"}
+      - {time: 35.038, driver: "Kyle"}
+      - {time: 34.419, driver: "Kyle"}
+      - {time: 34.353, driver: "Kyle"}
+      - {time: 34.456, driver: "Kyle"}
+      - {time: 34.694, driver: "Kyle"}
+      - {time: 35.035, driver: "Kyle"}
+      - {time: 34.66 , driver: "Kyle"}
+      - {time: 34.366, driver: "Kyle"}
+      - {time: 34.511, driver: "Kyle"}
+      - {time: 34.072, driver: "Kyle"}
+      - {time: 34.211, driver: "Kyle"}
+      - {time: 34.645, driver: "Kyle"}
+      - {time: 34.232, driver: "Kyle"}
+      - {time: 34.458, driver: "Kyle"}
+      - {time: 34.299, driver: "Kyle"}
+      - {time: 34.759, driver: "Kyle"}
+  - team_name: "WNS"
+    finish_position: 4
+    kart_number: 6
+    distance_to_winner: "1 lap"
+    laps:
+      - {time: 37.392, driver: "Emil"}
+      - {time: 36.745, driver: "Emil"}
+      - {time: 37.414, driver: "Emil"}
+      - {time: 36.8  , driver: "Emil"}
+      - {time: 36.932, driver: "Emil"}
+      - {time: 37.264, driver: "Emil"}
+      - {time: 37.08 , driver: "Emil"}
+      - {time: 37.72 , driver: "Emil"}
+      - {time: 37.53 , driver: "Emil"}
+      - {time: 36.991, driver: "Emil"}
+      - {time: 36.856, driver: "Emil"}
+      - {time: 37.155, driver: "Emil"}
+      - {time: 36.948, driver: "Emil"}
+      - {time: 36.143, driver: "Emil"}
+      - {time: 36.8  , driver: "Emil"}
+      - {time: 36.623, driver: "Emil"}
+      - {time: 36.503, driver: "Emil"}
+      - {time: 36.803, driver: "Emil"}
+      - {time: 37.179, driver: "Emil"}
+      - {time: 38.128, driver: "Emil"}
+      - {time: 36.79 , driver: "Emil"}
+      - {time: 36.351, driver: "Emil"}
+      - {time: 37.457, driver: "Emil"}
+      - {time: 37.375, driver: "Emil"}
+      - {time: 36.11 , driver: "Emil"}
+      - {time: 37.025, driver: "Emil"}
+      - {time: 36.44 , driver: "Emil"}
+      - {time: 36.872, driver: "Emil"}
+      - {time: 36.561, driver: "Emil"}
+      - {time: 37.192, driver: "Emil"}
+      - {time: 36.631, driver: "Emil"}
+      - {time: 37.324, driver: "Emil"}
+      - {time: 49.942, driver: "Pit"}
+      - {time: 36.636, driver: "PieterR"}
+      - {time: 35.843, driver: "PieterR"}
+      - {time: 35.434, driver: "PieterR"}
+      - {time: 35.513, driver: "PieterR"}
+      - {time: 35.399, driver: "PieterR"}
+      - {time: 35.315, driver: "PieterR"}
+      - {time: 35.14 , driver: "PieterR"}
+      - {time: 35.928, driver: "PieterR"}
+      - {time: 35.517, driver: "PieterR"}
+      - {time: 35.201, driver: "PieterR"}
+      - {time: 35.584, driver: "PieterR"}
+      - {time: 35.677, driver: "PieterR"}
+      - {time: 35.583, driver: "PieterR"}
+      - {time: 35.782, driver: "PieterR"}
+      - {time: 35.785, driver: "PieterR"}
+      - {time: 36.079, driver: "PieterR"}
+      - {time: 37.242, driver: "PieterR"}
+      - {time: 35.466, driver: "PieterR"}
+      - {time: 36.416, driver: "PieterR"}
+      - {time: 37.143, driver: "PieterR"}
+      - {time: 35.651, driver: "PieterR"}
+      - {time: 35.554, driver: "PieterR"}
+      - {time: 35.846, driver: "PieterR"}
+      - {time: 35.459, driver: "PieterR"}
+      - {time: 35.27 , driver: "PieterR"}
+      - {time: 35.926, driver: "PieterR"}
+      - {time: 36.3  , driver: "PieterR"}
+      - {time: 35.88 , driver: "PieterR"}
+      - {time: 36.333, driver: "PieterR"}
+      - {time: 36.852, driver: "PieterR"}
+      - {time: 35.792, driver: "PieterR"}
+      - {time: 36.541, driver: "PieterR"}
+      - {time: 36.923, driver: "PieterR"}
+      - {time: 35.44 , driver: "PieterR"}
+      - {time: 35.432, driver: "PieterR"}
+      - {time: 35.279, driver: "PieterR"}
+      - {time: 36.372, driver: "PieterR"}
+      - {time: 46.617, driver: "Pit"}
+      - {time: 35.99 , driver: "BertP"}
+      - {time: 35.45 , driver: "BertP"}
+      - {time: 35.983, driver: "BertP"}
+      - {time: 35.585, driver: "BertP"}
+      - {time: 35.334, driver: "BertP"}
+      - {time: 35.268, driver: "BertP"}
+      - {time: 35.298, driver: "BertP"}
+      - {time: 35.794, driver: "BertP"}
+      - {time: 35.073, driver: "BertP"}
+      - {time: 34.974, driver: "BertP"}
+      - {time: 35.139, driver: "BertP"}
+      - {time: 35.007, driver: "BertP"}
+      - {time: 35.253, driver: "BertP"}
+      - {time: 35.007, driver: "BertP"}
+      - {time: 34.983, driver: "BertP"}
+      - {time: 35.033, driver: "BertP"}
+      - {time: 35.499, driver: "BertP"}
+      - {time: 36.776, driver: "BertP"}
+      - {time: 35.431, driver: "BertP"}
+      - {time: 35.804, driver: "BertP"}
+      - {time: 37.213, driver: "BertP"}
+      - {time: 34.808, driver: "BertP"}
+      - {time: 34.886, driver: "BertP"}
+      - {time: 35.03 , driver: "BertP"}
+      - {time: 34.963, driver: "BertP"}
+      - {time: 34.948, driver: "BertP"}
+      - {time: 35.236, driver: "BertP"}
+      - {time: 34.876, driver: "BertP"}
+      - {time: 34.929, driver: "BertP"}
+      - {time: 47.885, driver: "Pit"}
+      - {time: 36.927, driver: "Emil"}
+      - {time: 36.14 , driver: "Emil"}
+      - {time: 36.061, driver: "Emil"}
+      - {time: 36.322, driver: "Emil"}
+      - {time: 36.271, driver: "Emil"}
+      - {time: 36.203, driver: "Emil"}
+      - {time: 36.185, driver: "Emil"}
+      - {time: 35.814, driver: "Emil"}
+      - {time: 36.39 , driver: "Emil"}
+      - {time: 36.066, driver: "Emil"}
+      - {time: 35.819, driver: "Emil"}
+      - {time: 35.799, driver: "Emil"}
+      - {time: 35.694, driver: "Emil"}
+      - {time: 35.775, driver: "Emil"}
+      - {time: 35.779, driver: "Emil"}
+      - {time: 35.804, driver: "Emil"}
+      - {time: 35.61 , driver: "Emil"}
+      - {time: 35.852, driver: "Emil"}
+      - {time: 35.717, driver: "Emil"}
+      - {time: 35.534, driver: "Emil"}
+      - {time: 36.35 , driver: "Emil"}
+      - {time: 36.162, driver: "Emil"}
+      - {time: 36.291, driver: "Emil"}
+      - {time: 38.443, driver: "Emil"}
+      - {time: 35.84 , driver: "Emil"}
+      - {time: 37.332, driver: "Emil"}
+      - {time: 37.779, driver: "Emil"}
+      - {time: 36.413, driver: "Emil"}
+      - {time: 37.536, driver: "Emil"}
+      - {time: 49.404, driver: "Pit"}
+      - {time: 35.728, driver: "PieterR"}
+      - {time: 35.394, driver: "PieterR"}
+      - {time: 35.663, driver: "PieterR"}
+      - {time: 35.585, driver: "PieterR"}
+      - {time: 35.454, driver: "PieterR"}
+      - {time: 35.683, driver: "PieterR"}
+      - {time: 36.45 , driver: "PieterR"}
+      - {time: 37.141, driver: "PieterR"}
+      - {time: 36.575, driver: "PieterR"}
+      - {time: 35.625, driver: "PieterR"}
+      - {time: 35.222, driver: "PieterR"}
+      - {time: 35.58 , driver: "PieterR"}
+      - {time: 35.521, driver: "PieterR"}
+      - {time: 36.467, driver: "PieterR"}
+      - {time: 35.574, driver: "PieterR"}
+      - {time: 35.4  , driver: "PieterR"}
+      - {time: 35.527, driver: "PieterR"}
+      - {time: 35.859, driver: "PieterR"}
+      - {time: 36.664, driver: "PieterR"}
+      - {time: 34.984, driver: "PieterR"}
+      - {time: 35.414, driver: "PieterR"}
+      - {time: 36.077, driver: "PieterR"}
+      - {time: 36.14 , driver: "PieterR"}
+      - {time: 35.713, driver: "PieterR"}
+      - {time: 47.36 , driver: "Pit"}
+      - {time: 35.476, driver: "BertP"}
+      - {time: 35.125, driver: "BertP"}
+      - {time: 34.74 , driver: "BertP"}
+      - {time: 34.83 , driver: "BertP"}
+      - {time: 34.798, driver: "BertP"}
+      - {time: 34.675, driver: "BertP"}
+      - {time: 35.369, driver: "BertP"}
+      - {time: 36.661, driver: "BertP"}
+      - {time: 34.886, driver: "BertP"}
+      - {time: 34.783, driver: "BertP"}
+      - {time: 34.596, driver: "BertP"}
+      - {time: 34.819, driver: "BertP"}
+      - {time: 34.642, driver: "BertP"}
+      - {time: 34.495, driver: "BertP"}
+      - {time: 34.532, driver: "BertP"}
+      - {time: 35.383, driver: "BertP"}
+      - {time: 34.448, driver: "BertP"}
+      - {time: 34.661, driver: "BertP"}
+      - {time: 35.666, driver: "BertP"}
+      - {time: 34.487, driver: "BertP"}
+      - {time: 34.595, driver: "BertP"}
+      - {time: 34.726, driver: "BertP"}
+      - {time: 34.85 , driver: "BertP"}
+      - {time: 34.627, driver: "BertP"}
+      - {time: 34.632, driver: "BertP"}
+      - {time: 34.769, driver: "BertP"}
+      - {time: 34.705, driver: "BertP"}
+      - {time: 35.171, driver: "BertP"}
+      - {time: 34.719, driver: "BertP"}
+      - {time: 34.896, driver: "BertP"}
+      - {time: 35.49 , driver: "BertP"}
+      - {time: 34.622, driver: "BertP"}
+      - {time: 34.622, driver: "BertP"}
+      - {time: 34.983, driver: "BertP"}
+      - {time: 34.745, driver: "BertP"}
+      - {time: 34.825, driver: "BertP"}
+      - {time: 34.716, driver: "BertP"}
+      - {time: 34.72 , driver: "BertP"}
+      - {time: 34.79 , driver: "BertP"}
+      - {time: 34.76 , driver: "BertP"}
+      - {time: 34.742, driver: "BertP"}
+      - {time: 34.624, driver: "BertP"}
+      - {time: 34.725, driver: "BertP"}
+      - {time: 35.076, driver: "BertP"}
+  - team_name: "RACING CONDITION"
+    finish_position: 5
+    kart_number: 4
+    distance_to_winner: "1 lap 19.648 sec"
+    laps:
+      - {time: 35.035, driver: "Inigo"}
+      - {time: 34.581, driver: "Inigo"}
+      - {time: 34.565, driver: "Inigo"}
+      - {time: 34.486, driver: "Inigo"}
+      - {time: 34.504, driver: "Inigo"}
+      - {time: 34.399, driver: "Inigo"}
+      - {time: 34.412, driver: "Inigo"}
+      - {time: 34.389, driver: "Inigo"}
+      - {time: 34.398, driver: "Inigo"}
+      - {time: 34.399, driver: "Inigo"}
+      - {time: 34.197, driver: "Inigo"}
+      - {time: 34.459, driver: "Inigo"}
+      - {time: 35.012, driver: "Inigo"}
+      - {time: 34.511, driver: "Inigo"}
+      - {time: 34.46 , driver: "Inigo"}
+      - {time: 34.462, driver: "Inigo"}
+      - {time: 35.428, driver: "Inigo"}
+      - {time: 34.548, driver: "Inigo"}
+      - {time: 34.505, driver: "Inigo"}
+      - {time: 34.469, driver: "Inigo"}
+      - {time: 34.19 , driver: "Inigo"}
+      - {time: 34.458, driver: "Inigo"}
+      - {time: 34.133, driver: "Inigo"}
+      - {time: 34.243, driver: "Inigo"}
+      - {time: 34.559, driver: "Inigo"}
+      - {time: 34.357, driver: "Inigo"}
+      - {time: 34.082, driver: "Inigo"}
+      - {time: 34.846, driver: "Inigo"}
+      - {time: 34.332, driver: "Inigo"}
+      - {time: 34.136, driver: "Inigo"}
+      - {time: 34.357, driver: "Inigo"}
+      - {time: 34.338, driver: "Inigo"}
+      - {time: 34.263, driver: "Inigo"}
+      - {time: 34.172, driver: "Inigo"}
+      - {time: 34.662, driver: "Inigo"}
+      - {time: 50.574, driver: "Pit"}
+      - {time: 40.284, driver: "RubenD"}
+      - {time: 38.071, driver: "RubenD"}
+      - {time: 38.171, driver: "RubenD"}
+      - {time: 37.461, driver: "RubenD"}
+      - {time: 37.63 , driver: "RubenD"}
+      - {time: 37.596, driver: "RubenD"}
+      - {time: 37.776, driver: "RubenD"}
+      - {time: 37.065, driver: "RubenD"}
+      - {time: 37.662, driver: "RubenD"}
+      - {time: 37.58 , driver: "RubenD"}
+      - {time: 37.39 , driver: "RubenD"}
+      - {time: 37.597, driver: "RubenD"}
+      - {time: 41.137, driver: "RubenD"}
+      - {time: 37.121, driver: "RubenD"}
+      - {time: 38.178, driver: "RubenD"}
+      - {time: 40.191, driver: "RubenD"}
+      - {time: 38.697, driver: "RubenD"}
+      - {time: 38.174, driver: "RubenD"}
+      - {time: 37.787, driver: "RubenD"}
+      - {time: 38.887, driver: "RubenD"}
+      - {time: 42.274, driver: "RubenD"}
+      - {time: 40.324, driver: "RubenD"}
+      - {time: 39.116, driver: "RubenD"}
+      - {time: 38.022, driver: "RubenD"}
+      - {time: 39.803, driver: "RubenD"}
+      - {time: 38.732, driver: "RubenD"}
+      - {time: 38.036, driver: "RubenD"}
+      - {time: 38.007, driver: "RubenD"}
+      - {time: 38.469, driver: "RubenD"}
+      - {time: 53.928, driver: "Pit"}
+      - {time: 35.927, driver: "Jonas"}
+      - {time: 35.038, driver: "Jonas"}
+      - {time: 35.313, driver: "Jonas"}
+      - {time: 35.663, driver: "Jonas"}
+      - {time: 36.109, driver: "Jonas"}
+      - {time: 35.116, driver: "Jonas"}
+      - {time: 35.509, driver: "Jonas"}
+      - {time: 35.714, driver: "Jonas"}
+      - {time: 35.452, driver: "Jonas"}
+      - {time: 35.152, driver: "Jonas"}
+      - {time: 35.488, driver: "Jonas"}
+      - {time: 35.173, driver: "Jonas"}
+      - {time: 35.507, driver: "Jonas"}
+      - {time: 35.074, driver: "Jonas"}
+      - {time: 35.157, driver: "Jonas"}
+      - {time: 35.21 , driver: "Jonas"}
+      - {time: 35.748, driver: "Jonas"}
+      - {time: 36.244, driver: "Jonas"}
+      - {time: 35.956, driver: "Jonas"}
+      - {time: 36.181, driver: "Jonas"}
+      - {time: 36.914, driver: "Jonas"}
+      - {time: 36.491, driver: "Jonas"}
+      - {time: 35.645, driver: "Jonas"}
+      - {time: 35.18 , driver: "Jonas"}
+      - {time: 35.393, driver: "Jonas"}
+      - {time: 35.324, driver: "Jonas"}
+      - {time: 35.364, driver: "Jonas"}
+      - {time: 35.541, driver: "Jonas"}
+      - {time: 35.487, driver: "Jonas"}
+      - {time: 35.14 , driver: "Jonas"}
+      - {time: 35.239, driver: "Jonas"}
+      - {time: 36.286, driver: "Jonas"}
+      - {time: 49.176, driver: "Pit"}
+      - {time: 38.253, driver: "RubenD"}
+      - {time: 36.891, driver: "RubenD"}
+      - {time: 36.841, driver: "RubenD"}
+      - {time: 36.938, driver: "RubenD"}
+      - {time: 36.796, driver: "RubenD"}
+      - {time: 37.208, driver: "RubenD"}
+      - {time: 36.779, driver: "RubenD"}
+      - {time: 37.551, driver: "RubenD"}
+      - {time: 36.6  , driver: "RubenD"}
+      - {time: 37.838, driver: "RubenD"}
+      - {time: 37.809, driver: "RubenD"}
+      - {time: 36.8  , driver: "RubenD"}
+      - {time: 40.339, driver: "RubenD"}
+      - {time: 36.744, driver: "RubenD"}
+      - {time: 38.18 , driver: "RubenD"}
+      - {time: 37.392, driver: "RubenD"}
+      - {time: 37.499, driver: "RubenD"}
+      - {time: 37.991, driver: "RubenD"}
+      - {time: 37.951, driver: "RubenD"}
+      - {time: 38.776, driver: "RubenD"}
+      - {time: 36.868, driver: "RubenD"}
+      - {time: 39.37 , driver: "RubenD"}
+      - {time: 37.516, driver: "RubenD"}
+      - {time: 36.835, driver: "RubenD"}
+      - {time: 36.68 , driver: "RubenD"}
+      - {time: 38.109, driver: "RubenD"}
+      - {time: 36.965, driver: "RubenD"}
+      - {time: 37.806, driver: "RubenD"}
+      - {time: 37.47 , driver: "RubenD"}
+      - {time: 37.582, driver: "RubenD"}
+      - {time: 52.387, driver: "Pit"}
+      - {time: 35.56 , driver: "Jonas"}
+      - {time: 35.262, driver: "Jonas"}
+      - {time: 35.128, driver: "Jonas"}
+      - {time: 35.265, driver: "Jonas"}
+      - {time: 35.154, driver: "Jonas"}
+      - {time: 35.171, driver: "Jonas"}
+      - {time: 35.357, driver: "Jonas"}
+      - {time: 34.996, driver: "Jonas"}
+      - {time: 35.563, driver: "Jonas"}
+      - {time: 35.264, driver: "Jonas"}
+      - {time: 35.054, driver: "Jonas"}
+      - {time: 35.092, driver: "Jonas"}
+      - {time: 35.234, driver: "Jonas"}
+      - {time: 35.472, driver: "Jonas"}
+      - {time: 34.898, driver: "Jonas"}
+      - {time: 35.144, driver: "Jonas"}
+      - {time: 35.886, driver: "Jonas"}
+      - {time: 35.527, driver: "Jonas"}
+      - {time: 35.089, driver: "Jonas"}
+      - {time: 35.562, driver: "Jonas"}
+      - {time: 35.359, driver: "Jonas"}
+      - {time: 35    , driver: "Jonas"}
+      - {time: 35.164, driver: "Jonas"}
+      - {time: 35.843, driver: "Jonas"}
+      - {time: 34.896, driver: "Jonas"}
+      - {time: 34.934, driver: "Jonas"}
+      - {time: 34.951, driver: "Jonas"}
+      - {time: 35.593, driver: "Jonas"}
+      - {time: 35.137, driver: "Jonas"}
+      - {time: 34.68 , driver: "Jonas"}
+      - {time: 34.993, driver: "Jonas"}
+      - {time: 34.937, driver: "Jonas"}
+      - {time: 35.483, driver: "Jonas"}
+      - {time: 35.345, driver: "Jonas"}
+      - {time: 45.899, driver: "Pit"}
+      - {time: 34.074, driver: "Inigo"}
+      - {time: 34.121, driver: "Inigo"}
+      - {time: 34.391, driver: "Inigo"}
+      - {time: 34.469, driver: "Inigo"}
+      - {time: 34.013, driver: "Inigo"}
+      - {time: 34.074, driver: "Inigo"}
+      - {time: 34.061, driver: "Inigo"}
+      - {time: 35.553, driver: "Inigo"}
+      - {time: 34.501, driver: "Inigo"}
+      - {time: 34.096, driver: "Inigo"}
+      - {time: 34.109, driver: "Inigo"}
+      - {time: 33.945, driver: "Inigo"}
+      - {time: 34.103, driver: "Inigo"}
+      - {time: 34.339, driver: "Inigo"}
+      - {time: 36.596, driver: "Inigo"}
+      - {time: 36.529, driver: "Inigo"}
+      - {time: 36.625, driver: "Inigo"}
+      - {time: 36.455, driver: "Inigo"}
+      - {time: 35.377, driver: "Inigo"}
+      - {time: 34.104, driver: "Inigo"}
+      - {time: 34.019, driver: "Inigo"}
+      - {time: 33.956, driver: "Inigo"}
+      - {time: 33.922, driver: "Inigo"}
+      - {time: 33.926, driver: "Inigo"}
+      - {time: 34.072, driver: "Inigo"}
+      - {time: 34.033, driver: "Inigo"}
+      - {time: 34.136, driver: "Inigo"}
+      - {time: 34.855, driver: "Inigo"}
+      - {time: 34.959, driver: "Inigo"}
+      - {time: 34.711, driver: "Inigo"}
+      - {time: 34.11 , driver: "Inigo"}
+      - {time: 34.22 , driver: "Inigo"}
+      - {time: 34.167, driver: "Inigo"}
+      - {time: 34.156, driver: "Inigo"}
+      - {time: 34.083, driver: "Inigo"}
+  - team_name: "OFF BY ONE LAP"
+    finish_position: 6
+    kart_number: 20
+    distance_to_winner: "2 laps"
+    laps:
+      - {time: 36.921, driver: "Stefaan"}
+      - {time: 36.72 , driver: "Stefaan"}
+      - {time: 36.472, driver: "Stefaan"}
+      - {time: 37.205, driver: "Stefaan"}
+      - {time: 36.41 , driver: "Stefaan"}
+      - {time: 35.766, driver: "Stefaan"}
+      - {time: 36.365, driver: "Stefaan"}
+      - {time: 36.997, driver: "Stefaan"}
+      - {time: 36.144, driver: "Stefaan"}
+      - {time: 36.778, driver: "Stefaan"}
+      - {time: 37.048, driver: "Stefaan"}
+      - {time: 36.608, driver: "Stefaan"}
+      - {time: 35.893, driver: "Stefaan"}
+      - {time: 36.348, driver: "Stefaan"}
+      - {time: 35.438, driver: "Stefaan"}
+      - {time: 35.813, driver: "Stefaan"}
+      - {time: 36.791, driver: "Stefaan"}
+      - {time: 35.186, driver: "Stefaan"}
+      - {time: 35.85 , driver: "Stefaan"}
+      - {time: 35.687, driver: "Stefaan"}
+      - {time: 36.858, driver: "Stefaan"}
+      - {time: 35.449, driver: "Stefaan"}
+      - {time: 35.647, driver: "Stefaan"}
+      - {time: 35.72 , driver: "Stefaan"}
+      - {time: 35.784, driver: "Stefaan"}
+      - {time: 36.151, driver: "Stefaan"}
+      - {time: 35.823, driver: "Stefaan"}
+      - {time: 35.659, driver: "Stefaan"}
+      - {time: 35.941, driver: "Stefaan"}
+      - {time: 36.122, driver: "Stefaan"}
+      - {time: 53.352, driver: "Pit"}
+      - {time: 35.922, driver: "Joost"}
+      - {time: 35.928, driver: "Joost"}
+      - {time: 35.42 , driver: "Joost"}
+      - {time: 35.395, driver: "Joost"}
+      - {time: 36.782, driver: "Joost"}
+      - {time: 35.59 , driver: "Joost"}
+      - {time: 35.628, driver: "Joost"}
+      - {time: 35.453, driver: "Joost"}
+      - {time: 35.711, driver: "Joost"}
+      - {time: 36.206, driver: "Joost"}
+      - {time: 35.465, driver: "Joost"}
+      - {time: 35.893, driver: "Joost"}
+      - {time: 35.483, driver: "Joost"}
+      - {time: 35.689, driver: "Joost"}
+      - {time: 35.885, driver: "Joost"}
+      - {time: 35.529, driver: "Joost"}
+      - {time: 37.06 , driver: "Joost"}
+      - {time: 35.892, driver: "Joost"}
+      - {time: 35.688, driver: "Joost"}
+      - {time: 35.846, driver: "Joost"}
+      - {time: 35.773, driver: "Joost"}
+      - {time: 35.982, driver: "Joost"}
+      - {time: 36.848, driver: "Joost"}
+      - {time: 35.718, driver: "Joost"}
+      - {time: 36.373, driver: "Joost"}
+      - {time: 35.574, driver: "Joost"}
+      - {time: 35.697, driver: "Joost"}
+      - {time: 35.616, driver: "Joost"}
+      - {time: 35.67 , driver: "Joost"}
+      - {time: 36.281, driver: "Joost"}
+      - {time: 35.989, driver: "Joost"}
+      - {time: 35.614, driver: "Joost"}
+      - {time: 48.406, driver: "Pit"}
+      - {time: 36.42 , driver: "TimM"}
+      - {time: 36.172, driver: "TimM"}
+      - {time: 35.866, driver: "TimM"}
+      - {time: 35.876, driver: "TimM"}
+      - {time: 36.782, driver: "TimM"}
+      - {time: 36.116, driver: "TimM"}
+      - {time: 36.874, driver: "TimM"}
+      - {time: 36.178, driver: "TimM"}
+      - {time: 36.637, driver: "TimM"}
+      - {time: 35.705, driver: "TimM"}
+      - {time: 36.512, driver: "TimM"}
+      - {time: 36.21 , driver: "TimM"}
+      - {time: 36.433, driver: "TimM"}
+      - {time: 36.347, driver: "TimM"}
+      - {time: 37.207, driver: "TimM"}
+      - {time: 36.655, driver: "TimM"}
+      - {time: 36.116, driver: "TimM"}
+      - {time: 36.707, driver: "TimM"}
+      - {time: 36.592, driver: "TimM"}
+      - {time: 36.963, driver: "TimM"}
+      - {time: 36.033, driver: "TimM"}
+      - {time: 36.21 , driver: "TimM"}
+      - {time: 36.917, driver: "TimM"}
+      - {time: 36.548, driver: "TimM"}
+      - {time: 37.082, driver: "TimM"}
+      - {time: 35.749, driver: "TimM"}
+      - {time: 35.896, driver: "TimM"}
+      - {time: 37.77 , driver: "TimM"}
+      - {time: 36.428, driver: "TimM"}
+      - {time: 36.028, driver: "TimM"}
+      - {time: 36.385, driver: "TimM"}
+      - {time: 36.754, driver: "TimM"}
+      - {time: 50.37 , driver: "Pit"}
+      - {time: 35.997, driver: "Stefaan"}
+      - {time: 35.924, driver: "Stefaan"}
+      - {time: 35.675, driver: "Stefaan"}
+      - {time: 35.592, driver: "Stefaan"}
+      - {time: 35.688, driver: "Stefaan"}
+      - {time: 35.062, driver: "Stefaan"}
+      - {time: 35.289, driver: "Stefaan"}
+      - {time: 35.658, driver: "Stefaan"}
+      - {time: 36.503, driver: "Stefaan"}
+      - {time: 34.814, driver: "Stefaan"}
+      - {time: 35.17 , driver: "Stefaan"}
+      - {time: 35.477, driver: "Stefaan"}
+      - {time: 35.586, driver: "Stefaan"}
+      - {time: 35.35 , driver: "Stefaan"}
+      - {time: 35.016, driver: "Stefaan"}
+      - {time: 35.432, driver: "Stefaan"}
+      - {time: 35.456, driver: "Stefaan"}
+      - {time: 35.684, driver: "Stefaan"}
+      - {time: 35.104, driver: "Stefaan"}
+      - {time: 35.159, driver: "Stefaan"}
+      - {time: 35.964, driver: "Stefaan"}
+      - {time: 35.693, driver: "Stefaan"}
+      - {time: 35.732, driver: "Stefaan"}
+      - {time: 35.213, driver: "Stefaan"}
+      - {time: 35.892, driver: "Stefaan"}
+      - {time: 36.618, driver: "Stefaan"}
+      - {time: 36.495, driver: "Stefaan"}
+      - {time: 36.528, driver: "Stefaan"}
+      - {time: 35.822, driver: "Stefaan"}
+      - {time: 35.703, driver: "Stefaan"}
+      - {time: 35.53 , driver: "Stefaan"}
+      - {time: 35.489, driver: "Stefaan"}
+      - {time: 35.752, driver: "Stefaan"}
+      - {time: 51.073, driver: "Pit"}
+      - {time: 35.594, driver: "Joost"}
+      - {time: 35.69 , driver: "Joost"}
+      - {time: 35.477, driver: "Joost"}
+      - {time: 35.555, driver: "Joost"}
+      - {time: 37.53 , driver: "Joost"}
+      - {time: 35.821, driver: "Joost"}
+      - {time: 35.181, driver: "Joost"}
+      - {time: 35.716, driver: "Joost"}
+      - {time: 36.342, driver: "Joost"}
+      - {time: 35.287, driver: "Joost"}
+      - {time: 35.471, driver: "Joost"}
+      - {time: 35.386, driver: "Joost"}
+      - {time: 35.416, driver: "Joost"}
+      - {time: 35.578, driver: "Joost"}
+      - {time: 35.814, driver: "Joost"}
+      - {time: 35.835, driver: "Joost"}
+      - {time: 35.38 , driver: "Joost"}
+      - {time: 35.329, driver: "Joost"}
+      - {time: 35.367, driver: "Joost"}
+      - {time: 35.428, driver: "Joost"}
+      - {time: 35.493, driver: "Joost"}
+      - {time: 35.28 , driver: "Joost"}
+      - {time: 37.054, driver: "Joost"}
+      - {time: 35.459, driver: "Joost"}
+      - {time: 35.707, driver: "Joost"}
+      - {time: 35.764, driver: "Joost"}
+      - {time: 35.913, driver: "Joost"}
+      - {time: 36.389, driver: "Joost"}
+      - {time: 36.166, driver: "Joost"}
+      - {time: 35.564, driver: "Joost"}
+      - {time: 35.985, driver: "Joost"}
+      - {time: 36.552, driver: "Joost"}
+      - {time: 36.356, driver: "Joost"}
+      - {time: 36.052, driver: "Joost"}
+      - {time: 36.265, driver: "Joost"}
+      - {time: 35.917, driver: "Joost"}
+      - {time: 35.874, driver: "Joost"}
+      - {time: 36.035, driver: "Joost"}
+      - {time: 35.628, driver: "Joost"}
+      - {time: 39.885, driver: "Joost"}
+      - {time: 35.919, driver: "Joost"}
+      - {time: 35.516, driver: "Joost"}
+      - {time: 48.65 , driver: "Pit"}
+      - {time: 35.94 , driver: "TimM"}
+      - {time: 36.171, driver: "TimM"}
+      - {time: 35.901, driver: "TimM"}
+      - {time: 36.124, driver: "TimM"}
+      - {time: 35.954, driver: "TimM"}
+      - {time: 36.717, driver: "TimM"}
+      - {time: 36.535, driver: "TimM"}
+      - {time: 36.569, driver: "TimM"}
+      - {time: 36.429, driver: "TimM"}
+      - {time: 36.578, driver: "TimM"}
+      - {time: 36.03 , driver: "TimM"}
+      - {time: 35.818, driver: "TimM"}
+      - {time: 36.055, driver: "TimM"}
+      - {time: 35.729, driver: "TimM"}
+      - {time: 37.257, driver: "TimM"}
+      - {time: 35.984, driver: "TimM"}
+      - {time: 36.312, driver: "TimM"}
+      - {time: 36.63 , driver: "TimM"}
+      - {time: 35.953, driver: "TimM"}
+      - {time: 38.337, driver: "TimM"}
+      - {time: 36.473, driver: "TimM"}
+      - {time: 36.862, driver: "TimM"}
+      - {time: 36.259, driver: "TimM"}
+      - {time: 35.719, driver: "TimM"}
+      - {time: 35.595, driver: "TimM"}
+  - team_name: "MAURIJO KART"
+    finish_position: 7
+    kart_number: 9
+    distance_to_winner: "3 laps"
+    laps:
+      - {time: 36.802, driver: "Yrjo"}
+      - {time: 36.727, driver: "Yrjo"}
+      - {time: 35.539, driver: "Yrjo"}
+      - {time: 35.411, driver: "Yrjo"}
+      - {time: 35.906, driver: "Yrjo"}
+      - {time: 35.661, driver: "Yrjo"}
+      - {time: 35.402, driver: "Yrjo"}
+      - {time: 35.544, driver: "Yrjo"}
+      - {time: 35.384, driver: "Yrjo"}
+      - {time: 35.629, driver: "Yrjo"}
+      - {time: 35.107, driver: "Yrjo"}
+      - {time: 35.303, driver: "Yrjo"}
+      - {time: 35.427, driver: "Yrjo"}
+      - {time: 35.73 , driver: "Yrjo"}
+      - {time: 35.504, driver: "Yrjo"}
+      - {time: 35.292, driver: "Yrjo"}
+      - {time: 35.779, driver: "Yrjo"}
+      - {time: 35.92 , driver: "Yrjo"}
+      - {time: 35.588, driver: "Yrjo"}
+      - {time: 35.303, driver: "Yrjo"}
+      - {time: 35.57 , driver: "Yrjo"}
+      - {time: 35.298, driver: "Yrjo"}
+      - {time: 35.318, driver: "Yrjo"}
+      - {time: 35.09 , driver: "Yrjo"}
+      - {time: 35.512, driver: "Yrjo"}
+      - {time: 35.401, driver: "Yrjo"}
+      - {time: 35.053, driver: "Yrjo"}
+      - {time: 35.13 , driver: "Yrjo"}
+      - {time: 35.199, driver: "Yrjo"}
+      - {time: 35.9  , driver: "Yrjo"}
+      - {time: 34.813, driver: "Yrjo"}
+      - {time: 34.788, driver: "Yrjo"}
+      - {time: 35.468, driver: "Yrjo"}
+      - {time: 35.247, driver: "Yrjo"}
+      - {time: 35.398, driver: "Yrjo"}
+      - {time: 35.479, driver: "Yrjo"}
+      - {time: 35.301, driver: "Yrjo"}
+      - {time: 49.43 , driver: "Pit"}
+      - {time: 37.508, driver: "Mauro"}
+      - {time: 37.134, driver: "Mauro"}
+      - {time: 37.32 , driver: "Mauro"}
+      - {time: 36.199, driver: "Mauro"}
+      - {time: 35.885, driver: "Mauro"}
+      - {time: 36.524, driver: "Mauro"}
+      - {time: 36.682, driver: "Mauro"}
+      - {time: 36.193, driver: "Mauro"}
+      - {time: 36.576, driver: "Mauro"}
+      - {time: 36.455, driver: "Mauro"}
+      - {time: 36.051, driver: "Mauro"}
+      - {time: 37.493, driver: "Mauro"}
+      - {time: 36.756, driver: "Mauro"}
+      - {time: 36.363, driver: "Mauro"}
+      - {time: 38.342, driver: "Mauro"}
+      - {time: 38.624, driver: "Mauro"}
+      - {time: 36.955, driver: "Mauro"}
+      - {time: 36.653, driver: "Mauro"}
+      - {time: 36.605, driver: "Mauro"}
+      - {time: 37.529, driver: "Mauro"}
+      - {time: 36.808, driver: "Mauro"}
+      - {time: 37.34 , driver: "Mauro"}
+      - {time: 36.108, driver: "Mauro"}
+      - {time: 36.193, driver: "Mauro"}
+      - {time: 36.17 , driver: "Mauro"}
+      - {time: 36.308, driver: "Mauro"}
+      - {time: 36.409, driver: "Mauro"}
+      - {time: 36.809, driver: "Mauro"}
+      - {time: 36.125, driver: "Mauro"}
+      - {time: 37.054, driver: "Mauro"}
+      - {time: 36.367, driver: "Mauro"}
+      - {time: 36.392, driver: "Mauro"}
+      - {time: 37.097, driver: "Mauro"}
+      - {time: 52.03 , driver: "Pit"}
+      - {time: 36.986, driver: "Stéphanie"}
+      - {time: 36.933, driver: "Stéphanie"}
+      - {time: 36.993, driver: "Stéphanie"}
+      - {time: 36.22 , driver: "Stéphanie"}
+      - {time: 36.718, driver: "Stéphanie"}
+      - {time: 35.616, driver: "Stéphanie"}
+      - {time: 35.713, driver: "Stéphanie"}
+      - {time: 35.858, driver: "Stéphanie"}
+      - {time: 36.192, driver: "Stéphanie"}
+      - {time: 35.959, driver: "Stéphanie"}
+      - {time: 36.162, driver: "Stéphanie"}
+      - {time: 37.063, driver: "Stéphanie"}
+      - {time: 37.522, driver: "Stéphanie"}
+      - {time: 36.282, driver: "Stéphanie"}
+      - {time: 35.441, driver: "Stéphanie"}
+      - {time: 37.159, driver: "Stéphanie"}
+      - {time: 39.197, driver: "Stéphanie"}
+      - {time: 36.857, driver: "Stéphanie"}
+      - {time: 37.27 , driver: "Stéphanie"}
+      - {time: 38.729, driver: "Stéphanie"}
+      - {time: 37.459, driver: "Stéphanie"}
+      - {time: 37.312, driver: "Stéphanie"}
+      - {time: 36.988, driver: "Stéphanie"}
+      - {time: 52.787, driver: "Pit"}
+      - {time: 38.482, driver: "Yrjo"}
+      - {time: 34.863, driver: "Yrjo"}
+      - {time: 34.894, driver: "Yrjo"}
+      - {time: 35.13 , driver: "Yrjo"}
+      - {time: 34.617, driver: "Yrjo"}
+      - {time: 35.28 , driver: "Yrjo"}
+      - {time: 35.568, driver: "Yrjo"}
+      - {time: 34.845, driver: "Yrjo"}
+      - {time: 34.932, driver: "Yrjo"}
+      - {time: 34.435, driver: "Yrjo"}
+      - {time: 34.758, driver: "Yrjo"}
+      - {time: 34.756, driver: "Yrjo"}
+      - {time: 35.171, driver: "Yrjo"}
+      - {time: 36.614, driver: "Yrjo"}
+      - {time: 34.737, driver: "Yrjo"}
+      - {time: 34.83 , driver: "Yrjo"}
+      - {time: 35.006, driver: "Yrjo"}
+      - {time: 34.755, driver: "Yrjo"}
+      - {time: 34.762, driver: "Yrjo"}
+      - {time: 34.654, driver: "Yrjo"}
+      - {time: 35.029, driver: "Yrjo"}
+      - {time: 34.521, driver: "Yrjo"}
+      - {time: 34.449, driver: "Yrjo"}
+      - {time: 34.496, driver: "Yrjo"}
+      - {time: 35.238, driver: "Yrjo"}
+      - {time: 35.789, driver: "Yrjo"}
+      - {time: 41.703, driver: "Yrjo"}
+      - {time: 35.25 , driver: "Yrjo"}
+      - {time: 34.975, driver: "Yrjo"}
+      - {time: 35.275, driver: "Yrjo"}
+      - {time: 36.088, driver: "Yrjo"}
+      - {time: 36.869, driver: "Yrjo"}
+      - {time: 35.128, driver: "Yrjo"}
+      - {time: 34.692, driver: "Yrjo"}
+      - {time: 34.914, driver: "Yrjo"}
+      - {time: 34.852, driver: "Yrjo"}
+      - {time: 34.849, driver: "Yrjo"}
+      - {time: 35.232, driver: "Yrjo"}
+      - {time: 48.541, driver: "Pit"}
+      - {time: 36.96 , driver: "Mauro"}
+      - {time: 36.392, driver: "Mauro"}
+      - {time: 36.604, driver: "Mauro"}
+      - {time: 36.063, driver: "Mauro"}
+      - {time: 37.873, driver: "Mauro"}
+      - {time: 36.258, driver: "Mauro"}
+      - {time: 35.831, driver: "Mauro"}
+      - {time: 35.946, driver: "Mauro"}
+      - {time: 36.095, driver: "Mauro"}
+      - {time: 36.177, driver: "Mauro"}
+      - {time: 36.232, driver: "Mauro"}
+      - {time: 36.22 , driver: "Mauro"}
+      - {time: 37.235, driver: "Mauro"}
+      - {time: 35.994, driver: "Mauro"}
+      - {time: 37.72 , driver: "Mauro"}
+      - {time: 36.072, driver: "Mauro"}
+      - {time: 35.875, driver: "Mauro"}
+      - {time: 35.861, driver: "Mauro"}
+      - {time: 35.99 , driver: "Mauro"}
+      - {time: 35.974, driver: "Mauro"}
+      - {time: 35.979, driver: "Mauro"}
+      - {time: 36.054, driver: "Mauro"}
+      - {time: 36.052, driver: "Mauro"}
+      - {time: 36.426, driver: "Mauro"}
+      - {time: 36.029, driver: "Mauro"}
+      - {time: 36.125, driver: "Mauro"}
+      - {time: 36.721, driver: "Mauro"}
+      - {time: 36.787, driver: "Mauro"}
+      - {time: 36.819, driver: "Mauro"}
+      - {time: 36.144, driver: "Mauro"}
+      - {time: 53.592, driver: "Pit"}
+      - {time: 37.494, driver: "Stéphanie"}
+      - {time: 36.653, driver: "Stéphanie"}
+      - {time: 36.736, driver: "Stéphanie"}
+      - {time: 35.335, driver: "Stéphanie"}
+      - {time: 36.618, driver: "Stéphanie"}
+      - {time: 37.867, driver: "Stéphanie"}
+      - {time: 35.666, driver: "Stéphanie"}
+      - {time: 37.43 , driver: "Stéphanie"}
+      - {time: 36.266, driver: "Stéphanie"}
+      - {time: 35.754, driver: "Stéphanie"}
+      - {time: 35.484, driver: "Stéphanie"}
+      - {time: 35.55 , driver: "Stéphanie"}
+      - {time: 35.53 , driver: "Stéphanie"}
+      - {time: 35.3  , driver: "Stéphanie"}
+      - {time: 35.792, driver: "Stéphanie"}
+      - {time: 35.927, driver: "Stéphanie"}
+      - {time: 36.036, driver: "Stéphanie"}
+      - {time: 36.123, driver: "Stéphanie"}
+      - {time: 36.102, driver: "Stéphanie"}
+      - {time: 36.057, driver: "Stéphanie"}
+      - {time: 35.734, driver: "Stéphanie"}
+      - {time: 35.83 , driver: "Stéphanie"}
+      - {time: 36.072, driver: "Stéphanie"}
+      - {time: 36.474, driver: "Stéphanie"}
+      - {time: 36.267, driver: "Stéphanie"}
+      - {time: 36.273, driver: "Stéphanie"}
+      - {time: 36.151, driver: "Stéphanie"}
+      - {time: 37.371, driver: "Stéphanie"}
+      - {time: 35.759, driver: "Stéphanie"}
+      - {time: 35.296, driver: "Stéphanie"}
+      - {time: 36.117, driver: "Stéphanie"}
+      - {time: 35.592, driver: "Stéphanie"}
+  - team_name: "EASY RIDERS"
+    finish_position: 8
+    kart_number: 15
+    distance_to_winner: "3 laps 19.955 sec"
+    laps:
+      - {time: 35.756, driver: "Steven"}
+      - {time: 35.5  , driver: "Steven"}
+      - {time: 35.316, driver: "Steven"}
+      - {time: 35.256, driver: "Steven"}
+      - {time: 35.25 , driver: "Steven"}
+      - {time: 35.304, driver: "Steven"}
+      - {time: 35.094, driver: "Steven"}
+      - {time: 35.386, driver: "Steven"}
+      - {time: 35.233, driver: "Steven"}
+      - {time: 35.134, driver: "Steven"}
+      - {time: 35.485, driver: "Steven"}
+      - {time: 35.52 , driver: "Steven"}
+      - {time: 35.877, driver: "Steven"}
+      - {time: 35.231, driver: "Steven"}
+      - {time: 35.166, driver: "Steven"}
+      - {time: 34.995, driver: "Steven"}
+      - {time: 35.432, driver: "Steven"}
+      - {time: 35.17 , driver: "Steven"}
+      - {time: 35.172, driver: "Steven"}
+      - {time: 35.263, driver: "Steven"}
+      - {time: 36.05 , driver: "Steven"}
+      - {time: 35.158, driver: "Steven"}
+      - {time: 35.053, driver: "Steven"}
+      - {time: 35.214, driver: "Steven"}
+      - {time: 35.134, driver: "Steven"}
+      - {time: 35.163, driver: "Steven"}
+      - {time: 35.123, driver: "Steven"}
+      - {time: 35.497, driver: "Steven"}
+      - {time: 36.005, driver: "Steven"}
+      - {time: 35.225, driver: "Steven"}
+      - {time: 35.135, driver: "Steven"}
+      - {time: 35.507, driver: "Steven"}
+      - {time: 35.242, driver: "Steven"}
+      - {time: 35.541, driver: "Steven"}
+      - {time: 53.218, driver: "Pit"}
+      - {time: 38.078, driver: "Gert"}
+      - {time: 36.268, driver: "Gert"}
+      - {time: 35.92 , driver: "Gert"}
+      - {time: 35.858, driver: "Gert"}
+      - {time: 37    , driver: "Gert"}
+      - {time: 36.374, driver: "Gert"}
+      - {time: 35.836, driver: "Gert"}
+      - {time: 36.047, driver: "Gert"}
+      - {time: 36.065, driver: "Gert"}
+      - {time: 35.919, driver: "Gert"}
+      - {time: 36.243, driver: "Gert"}
+      - {time: 35.827, driver: "Gert"}
+      - {time: 35.701, driver: "Gert"}
+      - {time: 35.649, driver: "Gert"}
+      - {time: 35.584, driver: "Gert"}
+      - {time: 36.401, driver: "Gert"}
+      - {time: 36.449, driver: "Gert"}
+      - {time: 35.919, driver: "Gert"}
+      - {time: 36.748, driver: "Gert"}
+      - {time: 37.555, driver: "Gert"}
+      - {time: 36.113, driver: "Gert"}
+      - {time: 35.854, driver: "Gert"}
+      - {time: 35.614, driver: "Gert"}
+      - {time: 35.902, driver: "Gert"}
+      - {time: 35.667, driver: "Gert"}
+      - {time: 35.668, driver: "Gert"}
+      - {time: 36.787, driver: "Gert"}
+      - {time: 35.827, driver: "Gert"}
+      - {time: 35.816, driver: "Gert"}
+      - {time: 35.419, driver: "Gert"}
+      - {time: 35.414, driver: "Gert"}
+      - {time: 35.519, driver: "Gert"}
+      - {time: 35.047, driver: "Gert"}
+      - {time: 35.525, driver: "Gert"}
+      - {time: 36.066, driver: "Gert"}
+      - {time: 36.027, driver: "Gert"}
+      - {time: 51.806, driver: "Pit"}
+      - {time: 38.067, driver: "BartG"}
+      - {time: 37.599, driver: "BartG"}
+      - {time: 38.409, driver: "BartG"}
+      - {time: 38.432, driver: "BartG"}
+      - {time: 37.526, driver: "BartG"}
+      - {time: 40.87 , driver: "BartG"}
+      - {time: 37.916, driver: "BartG"}
+      - {time: 38.233, driver: "BartG"}
+      - {time: 37.957, driver: "BartG"}
+      - {time: 39.263, driver: "BartG"}
+      - {time: 41.057, driver: "BartG"}
+      - {time: 40.701, driver: "BartG"}
+      - {time: 41.803, driver: "BartG"}
+      - {time: 66.41 , driver: "Pit"}
+      - {time: 35.779, driver: "Steven"}
+      - {time: 38.158, driver: "Steven"}
+      - {time: 35.911, driver: "Steven"}
+      - {time: 36.247, driver: "Steven"}
+      - {time: 35.422, driver: "Steven"}
+      - {time: 35.911, driver: "Steven"}
+      - {time: 35.163, driver: "Steven"}
+      - {time: 35.636, driver: "Steven"}
+      - {time: 36.1  , driver: "Steven"}
+      - {time: 36.088, driver: "Steven"}
+      - {time: 35.117, driver: "Steven"}
+      - {time: 35.245, driver: "Steven"}
+      - {time: 35.332, driver: "Steven"}
+      - {time: 35.207, driver: "Steven"}
+      - {time: 34.992, driver: "Steven"}
+      - {time: 34.766, driver: "Steven"}
+      - {time: 35.246, driver: "Steven"}
+      - {time: 35.084, driver: "Steven"}
+      - {time: 35.018, driver: "Steven"}
+      - {time: 35.062, driver: "Steven"}
+      - {time: 35.094, driver: "Steven"}
+      - {time: 35.297, driver: "Steven"}
+      - {time: 35.142, driver: "Steven"}
+      - {time: 34.96 , driver: "Steven"}
+      - {time: 35.097, driver: "Steven"}
+      - {time: 35.14 , driver: "Steven"}
+      - {time: 36.5  , driver: "Steven"}
+      - {time: 35.377, driver: "Steven"}
+      - {time: 35.63 , driver: "Steven"}
+      - {time: 36.354, driver: "Steven"}
+      - {time: 35.637, driver: "Steven"}
+      - {time: 35.077, driver: "Steven"}
+      - {time: 35.106, driver: "Steven"}
+      - {time: 35.411, driver: "Steven"}
+      - {time: 35.008, driver: "Steven"}
+      - {time: 36.202, driver: "Steven"}
+      - {time: 35.469, driver: "Steven"}
+      - {time: 35.295, driver: "Steven"}
+      - {time: 35.2  , driver: "Steven"}
+      - {time: 35.332, driver: "Steven"}
+      - {time: 35.258, driver: "Steven"}
+      - {time: 35.348, driver: "Steven"}
+      - {time: 35.871, driver: "Steven"}
+      - {time: 35.479, driver: "Steven"}
+      - {time: 37.074, driver: "Steven"}
+      - {time: 35.307, driver: "Steven"}
+      - {time: 35.261, driver: "Steven"}
+      - {time: 35.859, driver: "Steven"}
+      - {time: 37.813, driver: "Steven"}
+      - {time: 37.136, driver: "Steven"}
+      - {time: 35.108, driver: "Steven"}
+      - {time: 35.242, driver: "Steven"}
+      - {time: 36.24 , driver: "Steven"}
+      - {time: 35.578, driver: "Steven"}
+      - {time: 35.06 , driver: "Steven"}
+      - {time: 34.963, driver: "Steven"}
+      - {time: 35.053, driver: "Steven"}
+      - {time: 35.173, driver: "Steven"}
+      - {time: 35.293, driver: "Steven"}
+      - {time: 35.282, driver: "Steven"}
+      - {time: 35.578, driver: "Steven"}
+      - {time: 50.576, driver: "Pit"}
+      - {time: 37.293, driver: "BartG"}
+      - {time: 36.599, driver: "BartG"}
+      - {time: 36.567, driver: "BartG"}
+      - {time: 36.855, driver: "BartG"}
+      - {time: 36.912, driver: "BartG"}
+      - {time: 36.614, driver: "BartG"}
+      - {time: 37.748, driver: "BartG"}
+      - {time: 37.29 , driver: "BartG"}
+      - {time: 37.691, driver: "BartG"}
+      - {time: 38.468, driver: "BartG"}
+      - {time: 39.451, driver: "BartG"}
+      - {time: 37.374, driver: "BartG"}
+      - {time: 39.774, driver: "BartG"}
+      - {time: 66.978, driver: "Pit"}
+      - {time: 35.862, driver: "Gert"}
+      - {time: 35.606, driver: "Gert"}
+      - {time: 35.577, driver: "Gert"}
+      - {time: 35.86 , driver: "Gert"}
+      - {time: 35.727, driver: "Gert"}
+      - {time: 35.788, driver: "Gert"}
+      - {time: 35.779, driver: "Gert"}
+      - {time: 35.716, driver: "Gert"}
+      - {time: 35.437, driver: "Gert"}
+      - {time: 35.803, driver: "Gert"}
+      - {time: 36.905, driver: "Gert"}
+      - {time: 35.285, driver: "Gert"}
+      - {time: 35.532, driver: "Gert"}
+      - {time: 35.656, driver: "Gert"}
+      - {time: 35.41 , driver: "Gert"}
+      - {time: 35.407, driver: "Gert"}
+      - {time: 35.452, driver: "Gert"}
+      - {time: 35.483, driver: "Gert"}
+      - {time: 35.095, driver: "Gert"}
+      - {time: 35.438, driver: "Gert"}
+      - {time: 35.734, driver: "Gert"}
+      - {time: 35.556, driver: "Gert"}
+      - {time: 37.24 , driver: "Gert"}
+      - {time: 35.107, driver: "Gert"}
+      - {time: 35.566, driver: "Gert"}
+      - {time: 35.404, driver: "Gert"}
+      - {time: 35.27 , driver: "Gert"}
+      - {time: 35.831, driver: "Gert"}
+      - {time: 36.819, driver: "Gert"}
+      - {time: 35.998, driver: "Gert"}
+      - {time: 36.766, driver: "Gert"}
+      - {time: 35.696, driver: "Gert"}
+      - {time: 35.064, driver: "Gert"}
+      - {time: 35.559, driver: "Gert"}
+      - {time: 35.619, driver: "Gert"}
+      - {time: 35.914, driver: "Gert"}
+  - team_name: "DESCALER"
+    finish_position: 9
+    kart_number: 11
+    distance_to_winner: "5 laps"
+    laps:
+      - {time: 35.451, driver: "Jean-Philippe"}
+      - {time: 35.061, driver: "Jean-Philippe"}
+      - {time: 35.354, driver: "Jean-Philippe"}
+      - {time: 35.492, driver: "Jean-Philippe"}
+      - {time: 35.074, driver: "Jean-Philippe"}
+      - {time: 35.163, driver: "Jean-Philippe"}
+      - {time: 35.408, driver: "Jean-Philippe"}
+      - {time: 35.236, driver: "Jean-Philippe"}
+      - {time: 35.365, driver: "Jean-Philippe"}
+      - {time: 34.993, driver: "Jean-Philippe"}
+      - {time: 35.278, driver: "Jean-Philippe"}
+      - {time: 35.428, driver: "Jean-Philippe"}
+      - {time: 35.461, driver: "Jean-Philippe"}
+      - {time: 35.579, driver: "Jean-Philippe"}
+      - {time: 35.613, driver: "Jean-Philippe"}
+      - {time: 35.607, driver: "Jean-Philippe"}
+      - {time: 47.522, driver: "Pit"}
+      - {time: 35.518, driver: "Jean-Philippe"}
+      - {time: 51.766, driver: "Pit"}
+      - {time: 36.784, driver: "Maarten"}
+      - {time: 36.255, driver: "Maarten"}
+      - {time: 36.76 , driver: "Maarten"}
+      - {time: 35.603, driver: "Maarten"}
+      - {time: 36.414, driver: "Maarten"}
+      - {time: 35.514, driver: "Maarten"}
+      - {time: 35.675, driver: "Maarten"}
+      - {time: 35.473, driver: "Maarten"}
+      - {time: 38.408, driver: "Maarten"}
+      - {time: 35.283, driver: "Maarten"}
+      - {time: 36.564, driver: "Maarten"}
+      - {time: 35.557, driver: "Maarten"}
+      - {time: 35.754, driver: "Maarten"}
+      - {time: 37.161, driver: "Maarten"}
+      - {time: 37.825, driver: "Maarten"}
+      - {time: 35.752, driver: "Maarten"}
+      - {time: 35.491, driver: "Maarten"}
+      - {time: 35.728, driver: "Maarten"}
+      - {time: 36.132, driver: "Maarten"}
+      - {time: 36.722, driver: "Maarten"}
+      - {time: 35.746, driver: "Maarten"}
+      - {time: 35.465, driver: "Maarten"}
+      - {time: 35.684, driver: "Maarten"}
+      - {time: 35.796, driver: "Maarten"}
+      - {time: 35.722, driver: "Maarten"}
+      - {time: 35.592, driver: "Maarten"}
+      - {time: 36.077, driver: "Maarten"}
+      - {time: 36.626, driver: "Maarten"}
+      - {time: 38.661, driver: "Maarten"}
+      - {time: 35.617, driver: "Maarten"}
+      - {time: 36.153, driver: "Maarten"}
+      - {time: 54.056, driver: "Pit"}
+      - {time: 41.543, driver: "StijnC"}
+      - {time: 40.281, driver: "StijnC"}
+      - {time: 39.881, driver: "StijnC"}
+      - {time: 41.411, driver: "StijnC"}
+      - {time: 38.788, driver: "StijnC"}
+      - {time: 40.232, driver: "StijnC"}
+      - {time: 38.929, driver: "StijnC"}
+      - {time: 38.727, driver: "StijnC"}
+      - {time: 39.015, driver: "StijnC"}
+      - {time: 38.163, driver: "StijnC"}
+      - {time: 38.766, driver: "StijnC"}
+      - {time: 39.234, driver: "StijnC"}
+      - {time: 39.274, driver: "StijnC"}
+      - {time: 38.746, driver: "StijnC"}
+      - {time: 39.542, driver: "StijnC"}
+      - {time: 38.875, driver: "StijnC"}
+      - {time: 38.851, driver: "StijnC"}
+      - {time: 39.55 , driver: "StijnC"}
+      - {time: 38.684, driver: "StijnC"}
+      - {time: 39.72 , driver: "StijnC"}
+      - {time: 38.689, driver: "StijnC"}
+      - {time: 39.02 , driver: "StijnC"}
+      - {time: 38.671, driver: "StijnC"}
+      - {time: 38.498, driver: "StijnC"}
+      - {time: 38.818, driver: "StijnC"}
+      - {time: 39.614, driver: "StijnC"}
+      - {time: 37.819, driver: "StijnC"}
+      - {time: 37.9  , driver: "StijnC"}
+      - {time: 39.88 , driver: "StijnC"}
+      - {time: 51.478, driver: "Pit"}
+      - {time: 36.765, driver: "Jean-Philippe"}
+      - {time: 35.999, driver: "Jean-Philippe"}
+      - {time: 37.038, driver: "Jean-Philippe"}
+      - {time: 37.14 , driver: "Jean-Philippe"}
+      - {time: 36.213, driver: "Jean-Philippe"}
+      - {time: 36.244, driver: "Jean-Philippe"}
+      - {time: 35.557, driver: "Jean-Philippe"}
+      - {time: 37.677, driver: "Jean-Philippe"}
+      - {time: 36.472, driver: "Jean-Philippe"}
+      - {time: 36.043, driver: "Jean-Philippe"}
+      - {time: 36.308, driver: "Jean-Philippe"}
+      - {time: 36.666, driver: "Jean-Philippe"}
+      - {time: 36.327, driver: "Jean-Philippe"}
+      - {time: 36.454, driver: "Jean-Philippe"}
+      - {time: 35.224, driver: "Jean-Philippe"}
+      - {time: 35.072, driver: "Jean-Philippe"}
+      - {time: 35.609, driver: "Jean-Philippe"}
+      - {time: 34.949, driver: "Jean-Philippe"}
+      - {time: 34.999, driver: "Jean-Philippe"}
+      - {time: 34.701, driver: "Jean-Philippe"}
+      - {time: 35.081, driver: "Jean-Philippe"}
+      - {time: 34.943, driver: "Jean-Philippe"}
+      - {time: 35.268, driver: "Jean-Philippe"}
+      - {time: 35.119, driver: "Jean-Philippe"}
+      - {time: 35.064, driver: "Jean-Philippe"}
+      - {time: 35.288, driver: "Jean-Philippe"}
+      - {time: 35.211, driver: "Jean-Philippe"}
+      - {time: 34.875, driver: "Jean-Philippe"}
+      - {time: 35.113, driver: "Jean-Philippe"}
+      - {time: 35.729, driver: "Jean-Philippe"}
+      - {time: 34.794, driver: "Jean-Philippe"}
+      - {time: 35.149, driver: "Jean-Philippe"}
+      - {time: 34.906, driver: "Jean-Philippe"}
+      - {time: 34.921, driver: "Jean-Philippe"}
+      - {time: 34.981, driver: "Jean-Philippe"}
+      - {time: 35.037, driver: "Jean-Philippe"}
+      - {time: 35.206, driver: "Jean-Philippe"}
+      - {time: 35.288, driver: "Jean-Philippe"}
+      - {time: 35.344, driver: "Jean-Philippe"}
+      - {time: 35.222, driver: "Jean-Philippe"}
+      - {time: 35.299, driver: "Jean-Philippe"}
+      - {time: 35.191, driver: "Jean-Philippe"}
+      - {time: 35.127, driver: "Jean-Philippe"}
+      - {time: 35.387, driver: "Jean-Philippe"}
+      - {time: 34.71 , driver: "Jean-Philippe"}
+      - {time: 35.172, driver: "Jean-Philippe"}
+      - {time: 35.978, driver: "Jean-Philippe"}
+      - {time: 35.472, driver: "Jean-Philippe"}
+      - {time: 34.687, driver: "Jean-Philippe"}
+      - {time: 34.958, driver: "Jean-Philippe"}
+      - {time: 49.315, driver: "Pit"}
+      - {time: 36.778, driver: "Maarten"}
+      - {time: 36.141, driver: "Maarten"}
+      - {time: 35.535, driver: "Maarten"}
+      - {time: 37.404, driver: "Maarten"}
+      - {time: 37.333, driver: "Maarten"}
+      - {time: 36.793, driver: "Maarten"}
+      - {time: 35.708, driver: "Maarten"}
+      - {time: 36.319, driver: "Maarten"}
+      - {time: 35.473, driver: "Maarten"}
+      - {time: 35.28 , driver: "Maarten"}
+      - {time: 35.851, driver: "Maarten"}
+      - {time: 35.722, driver: "Maarten"}
+      - {time: 38.085, driver: "Maarten"}
+      - {time: 35.568, driver: "Maarten"}
+      - {time: 35.461, driver: "Maarten"}
+      - {time: 35.611, driver: "Maarten"}
+      - {time: 35.223, driver: "Maarten"}
+      - {time: 35.509, driver: "Maarten"}
+      - {time: 35.58 , driver: "Maarten"}
+      - {time: 36.846, driver: "Maarten"}
+      - {time: 35.63 , driver: "Maarten"}
+      - {time: 35.717, driver: "Maarten"}
+      - {time: 36.165, driver: "Maarten"}
+      - {time: 36.433, driver: "Maarten"}
+      - {time: 36.926, driver: "Maarten"}
+      - {time: 35.391, driver: "Maarten"}
+      - {time: 35.939, driver: "Maarten"}
+      - {time: 36.551, driver: "Maarten"}
+      - {time: 36.842, driver: "Maarten"}
+      - {time: 36.664, driver: "Maarten"}
+      - {time: 36.241, driver: "Maarten"}
+      - {time: 35.974, driver: "Maarten"}
+      - {time: 53.543, driver: "Pit"}
+      - {time: 38.698, driver: "StijnC"}
+      - {time: 38.457, driver: "StijnC"}
+      - {time: 37.792, driver: "StijnC"}
+      - {time: 37.517, driver: "StijnC"}
+      - {time: 37.132, driver: "StijnC"}
+      - {time: 36.584, driver: "StijnC"}
+      - {time: 37.379, driver: "StijnC"}
+      - {time: 37.188, driver: "StijnC"}
+      - {time: 37.088, driver: "StijnC"}
+      - {time: 38.959, driver: "StijnC"}
+      - {time: 38.247, driver: "StijnC"}
+      - {time: 37.783, driver: "StijnC"}
+      - {time: 38.046, driver: "StijnC"}
+      - {time: 37.367, driver: "StijnC"}
+      - {time: 52.717, driver: "Pit"}
+      - {time: 34.854, driver: "Jean-Philippe"}
+      - {time: 34.839, driver: "Jean-Philippe"}
+      - {time: 34.784, driver: "Jean-Philippe"}
+      - {time: 34.765, driver: "Jean-Philippe"}
+      - {time: 35.137, driver: "Jean-Philippe"}
+      - {time: 35.019, driver: "Jean-Philippe"}
+      - {time: 35.019, driver: "Jean-Philippe"}
+      - {time: 35.518, driver: "Jean-Philippe"}
+      - {time: 35.46 , driver: "Jean-Philippe"}
+      - {time: 35.177, driver: "Jean-Philippe"}
+      - {time: 35.147, driver: "Jean-Philippe"}
+      - {time: 36.129, driver: "Jean-Philippe"}
+      - {time: 35.162, driver: "Jean-Philippe"}
+      - {time: 35.287, driver: "Jean-Philippe"}
+      - {time: 35.894, driver: "Jean-Philippe"}
+      - {time: 35.509, driver: "Jean-Philippe"}
