@@ -9,6 +9,7 @@ python3 -m venv .venv
 . .venv/bin/activate
 
 # Install packages
+python3 -m pip install numpy
 python3 -m pip install pyyaml
 python3 -m pip install XlsxWriter
 python3 -m pip install plotly
