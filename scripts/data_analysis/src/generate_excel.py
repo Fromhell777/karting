@@ -1,5 +1,6 @@
 import numpy as np
 
+import copy
 import argparse
 import yaml
 import xlsxwriter
@@ -34,11 +35,63 @@ total_race_time = 0
 for lap in karting_data["results"][0]["laps"]:
   total_race_time += lap["time"]
 
-running_averages = {}
+cumulative_times = {}
 for team_data in karting_data["results"]:
   times = [lap["time"] for lap in team_data["laps"]]
-  cumulative_time = np.cumsum(times)
-  running_averages[team_data["team_name"]] = cumulative_time / np.arange(1, len(cumulative_time) + 1)
+  cumulative_times[team_data["team_name"]] = np.cumsum(times)
+
+running_averages = {}
+for team_data in karting_data["results"]:
+  team_name = team_data["team_name"]
+  cumulative_time = cumulative_times[team_name]
+  running_averages[team_name] = cumulative_time / np.arange(1, len(cumulative_time) + 1)
+
+# Update the cumulative times for easier interpolation
+cumulative_times_extended = copy.deepcopy(cumulative_times)
+for team_name in cumulative_times_extended:
+  # Add the value 0 to start of the cumulative times
+  cumulative_times_extended[team_name] = np.insert(cumulative_times_extended[team_name], 0, 0)
+
+max_cumulative_time = max([cumulative_time[-1] for cumulative_time in cumulative_times.values()])
+for team_name in cumulative_times_extended:
+  # Extend the cumulative times with the last running average of the team
+  while cumulative_times_extended[team_name][-1] < max_cumulative_time:
+    cumulative_times_extended[team_name] = np.append(cumulative_times_extended[team_name],
+                                                     cumulative_times_extended[team_name][-1] + running_averages[team_name][-1])
+
+# Calculate interpolated laps
+all_cumulative_times = []
+for team_cumulative_times in cumulative_times.values():
+  all_cumulative_times.extend(team_cumulative_times)
+
+all_cumulative_times.sort()
+
+interpolated_laps = {}
+for team_name, team_cumulative_times_extended in cumulative_times_extended.items():
+  interpolated_laps[team_name] = []
+  current_lap_index = 0
+  for cumulative_time in all_cumulative_times:
+    while team_cumulative_times_extended[current_lap_index + 1] < cumulative_time:
+      current_lap_index += 1
+
+    # Interpolate
+    current_cumulative_time = team_cumulative_times_extended[current_lap_index]
+    next_cumulative_time    = team_cumulative_times_extended[current_lap_index + 1]
+    interpolated_lap = current_lap_index + (cumulative_time - current_cumulative_time) / \
+                                           (next_cumulative_time - current_cumulative_time)
+    interpolated_laps[team_name].append(interpolated_lap)
+
+total_running_average = []
+for i, cumulative_time in enumerate(all_cumulative_times):
+  sum_team_laps = sum([team_interpolated_laps[i] for team_interpolated_laps in interpolated_laps.values()])
+  total_running_average.append(number_of_teams * cumulative_time / sum_team_laps)
+
+total_running_average_diff = {}
+for team_name in cumulative_times:
+  total_running_average_diff[team_name] = []
+  for i, cumulative_time in enumerate(all_cumulative_times):
+    total_running_average_diff[team_name].append(cumulative_time / interpolated_laps[team_name][i] -
+                                                 total_running_average[i])
 
 ###############
 # Excel setup #
@@ -65,7 +118,7 @@ merge_format.set_align("center")
 
 # Set the column width
 worksheet_results.set_column(first_col = 0,
-                             last_col  = 10,
+                             last_col  = 11,
                              width     = 30)
 
 worksheet_race_data.set_column(first_col = 0,
@@ -122,7 +175,7 @@ def calc_next_multiple(number, multiple):
 def calc_previous_multiple(number, multiple):
   return (number // multiple) * multiple
 
-def get_time_axis_units(total_race_time):
+def get_race_time_axis_units(total_race_time):
   if total_race_time > 5000:
     major_unit = 1000
   elif total_race_time > 2500:
@@ -132,7 +185,21 @@ def get_time_axis_units(total_race_time):
   else:
     major_unit = 100
 
-  minor_unit = major_unit // 5
+  minor_unit = major_unit / 5
+
+  return (major_unit, minor_unit)
+
+def get_laps_axis_units(lap_range):
+  if lap_range > 5:
+    major_unit = 0.5
+  elif lap_range > 2.5:
+    major_unit = 0.25
+  elif lap_range > 1:
+    major_unit = 0.125
+  else:
+    major_unit = 0.1
+
+  minor_unit = major_unit / 5
 
   return (major_unit, minor_unit)
 
@@ -190,6 +257,7 @@ table_options = {"name"    : "race_results",
                               {"header"  : "Slowest lap [laps]"},
                               {"header"  : "Average lap [sec]",
                                "formula" : f"=SUM(INDIRECT({team_table_name}[Lap times '[sec']]\")) / race_results[[#This Row], [Laps '[laps']]]"},
+                              {"header"  : "Standard deviation [sec]"},
                               {"header"  : "Pit time [sec]",
                                "formula" : f"=SUMIF(INDIRECT({team_table_name}[Driver]\"), \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\"))"},
                               {"header"  : "Pit stops",
@@ -202,6 +270,12 @@ for i in range(len(total_data)):
   worksheet_results.write_formula(row     = i + 2,
                                   col     = 6,
                                   formula = f"{{=MAX(IF(INDIRECT({team_table_name}[Driver]\") <> \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\")))}}")
+
+# Standard deviation formula
+for i in range(len(total_data)):
+  worksheet_results.write_formula(row     = i + 2,
+                                  col     = 8,
+                                  formula = f"{{=STDEV.S(IF(INDIRECT({team_table_name}[Driver]\") <> \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\")))}}")
 
 create_table(worksheet     = worksheet_results,
              table_options = table_options,
@@ -249,10 +323,9 @@ table_options = {"name"    : "driver_results",
                                "formula" : f"=COUNTIF(INDIRECT({team_table_name}[Driver]\"), driver_results[[#This Row], [Driver]])"},
                               {"header"  : "Fastest lap [sec]"},
                               {"header"  : "Slowest lap [sec]"},
-                              {"header"  : "Standard deviation [sec]"},
                               {"header"  : "Average lap [sec]"},
-                              {"header"  : "Avg lap (no outliers) [sec]"}
-                              ]}
+                              {"header"  : "Avg lap (no outliers) [sec]"},
+                              {"header"  : "Standard deviation [sec]"}]}
 
 # Fastest lap formula
 first_row = len(total_data) + 7
@@ -267,16 +340,10 @@ for i in range(len(driver_data)):
                                   col     = 4,
                                   formula = f"{{=MAX({driver_laps})}}")
 
-# Standard deviation formula
-for i in range(len(driver_data)):
-  worksheet_results.write_formula(row     = first_row + i,
-                                  col     = 5,
-                                  formula = f"{{=STDEV.S({driver_laps})}}")
-
 # Average lap formula
 for i in range(len(driver_data)):
   worksheet_results.write_formula(row     = first_row + i,
-                                  col     = 6,
+                                  col     = 5,
                                   formula = f"{{=AVERAGE({driver_laps})}}")
 
 # Average lap without outliers formula
@@ -292,8 +359,15 @@ worksheet_results.write_number(row    = outliers_row + 1,
 
 for i in range(len(driver_data)):
   worksheet_results.write_formula(row     = first_row + i,
-                                  col     = 7,
+                                  col     = 6,
                                   formula = f"{{=AVERAGE(SMALL({driver_laps}, ROW(INDIRECT(\"1:\"&ROUND((1 - ${outliers_column_char}${outliers_row + 2}) * driver_results[[#This Row], [Laps '[laps']]], 0)))))}}")
+
+# Standard deviation formula
+for i in range(len(driver_data)):
+  worksheet_results.write_formula(row     = first_row + i,
+                                  col     = 7,
+                                  formula = f"{{=STDEV.S({driver_laps})}}")
+
 
 create_table(worksheet     = worksheet_results,
              table_options = table_options,
@@ -345,13 +419,6 @@ for i, team_data in enumerate(karting_data["results"]):
 # Intermediate points #
 #######################
 # TODO use HSTACK in the future
-all_cumulative_times = []
-for team_data in karting_data["results"]:
-  times = [lap["time"] for lap in team_data["laps"]]
-  all_cumulative_times.extend(np.cumsum(times))
-
-all_cumulative_times.sort()
-
 for i in range(len(all_cumulative_times)):
   all_cumulative_times[i] = [all_cumulative_times[i]]
 
@@ -428,7 +495,7 @@ for i, team_data in enumerate(karting_data["results"]):
                     "categories" : ["race_data", 2, first_column + 3, number_of_laps + 1, first_column + 3],
                     "values"     : ["race_data", 2, first_column + 2, number_of_laps + 1, first_column + 2]})
 
-x_major_unit, x_minor_unit = get_time_axis_units(total_race_time)
+x_major_unit, x_minor_unit = get_race_time_axis_units(total_race_time)
 
 x_max = calc_next_multiple(number   = total_race_time,
                            multiple = x_minor_unit)
@@ -484,18 +551,26 @@ for i, team_data in enumerate(karting_data["results"]):
                     "categories" : ["intermediate_data", 1, 0, number_of_time_points, 0],
                     "values"     : ["intermediate_data", 1, first_column_data + i, number_of_time_points, first_column_data + i]})
 
-x_major_unit, x_minor_unit = get_time_axis_units(total_race_time)
+x_major_unit, x_minor_unit = get_race_time_axis_units(total_race_time)
 
 x_max = calc_next_multiple(number   = total_race_time,
                            multiple = x_minor_unit)
 
-# TODO
-y_major_unit = 0.5
-y_minor_unit = y_major_unit // 5
+max_distance_to_winner = 0
+min_distance_to_winner = 0
+winner_team_name       = karting_data["results"][0]["team_name"]
+for team_interpolated_laps in interpolated_laps.values():
+  for i, team_interpolated_lap in enumerate(team_interpolated_laps):
+    distance_to_winner = interpolated_laps[winner_team_name][i] - team_interpolated_lap
+    max_distance_to_winner = max(distance_to_winner, max_distance_to_winner)
+    min_distance_to_winner = min(distance_to_winner, min_distance_to_winner)
 
-y_max = calc_next_multiple(number   = 5,
+y_max = calc_next_multiple(number   = max_distance_to_winner,
                            multiple = y_major_unit)
-y_min = -y_major_unit - 2
+y_min = calc_previous_multiple(number   = min_distance_to_winner,
+                               multiple = y_major_unit)
+
+y_major_unit, y_minor_unit = get_laps_axis_units(y_max - y_min)
 
 chart.set_title({"name" : "Running distance to winner"})
 set_default_axis_options(chart        = chart,
@@ -532,18 +607,30 @@ for i, team_data in enumerate(karting_data["results"]):
                     "categories" : ["intermediate_data", 1, 0, number_of_time_points, 0],
                     "values"     : ["intermediate_data", 1, first_column_data + i, number_of_time_points, first_column_data + i]})
 
-x_major_unit, x_minor_unit = get_time_axis_units(total_race_time)
+x_major_unit, x_minor_unit = get_race_time_axis_units(total_race_time)
 
 x_max = calc_next_multiple(number   = total_race_time,
                            multiple = x_minor_unit)
 
-# TODO
-y_major_unit = 0.5
-y_minor_unit = y_major_unit // 5
+max_distance_to_leader = 0
+for team_name, team_interpolated_laps in interpolated_laps.items():
+  for i, team_interpolated_lap in enumerate(team_interpolated_laps):
 
-y_max = calc_next_multiple(number   = 6,
+    leader_team_name = team_name
+    highest_lap      = team_interpolated_lap
+    for other_team_name, other_team_interpolated_laps in interpolated_laps.items():
+      if other_team_interpolated_laps[i] > highest_lap:
+        highest_lap = other_team_interpolated_laps[i]
+        leader_team_name = other_team_name
+
+    distance_to_leader = interpolated_laps[leader_team_name][i] - team_interpolated_lap
+    max_distance_to_leader = max(distance_to_leader, max_distance_to_leader)
+
+y_max = calc_next_multiple(number   = max_distance_to_leader,
                            multiple = y_major_unit)
 y_min = -y_major_unit
+
+y_major_unit, y_minor_unit = get_laps_axis_units(y_max - y_min)
 
 chart.set_title({"name" : "Running distance to leader"})
 set_default_axis_options(chart        = chart,
@@ -580,18 +667,24 @@ for i, team_data in enumerate(karting_data["results"]):
                     "categories" : ["intermediate_data", 1, 0, number_of_time_points, 0],
                     "values"     : ["intermediate_data", 1, first_column_data + i, number_of_time_points, first_column_data + i]})
 
-x_major_unit, x_minor_unit = get_time_axis_units(total_race_time)
+x_major_unit, x_minor_unit = get_race_time_axis_units(total_race_time)
 
 x_max = calc_next_multiple(number   = total_race_time,
                            multiple = x_minor_unit)
 
-# TODO
-y_major_unit = 0.5
-y_minor_unit = y_major_unit // 5
+max_diff_to_average = 0
+min_diff_to_average = 0
+for team_total_running_average_diff in total_running_average_diff.values():
+  for running_average_diff in team_total_running_average_diff:
+    max_diff_to_average = max(running_average_diff, max_diff_to_average)
+    min_diff_to_average = min(running_average_diff, min_diff_to_average)
 
-y_max = calc_next_multiple(number   = 2,
+y_max = calc_next_multiple(number   = max_diff_to_average,
                            multiple = y_major_unit)
-y_min = -y_major_unit - 1
+y_min = calc_previous_multiple(number   = min_diff_to_average,
+                               multiple = y_major_unit)
+
+y_major_unit, y_minor_unit = get_laps_axis_units(y_max - y_min)
 
 chart.set_title({"name" : "Diff to total running average lap time"})
 set_default_axis_options(chart        = chart,
@@ -616,11 +709,3 @@ worksheet_results.insert_chart(row   = len(total_data) + len(driver_data) + 148,
 # Generate the Excel file #
 ###########################
 workbook.close()
-
-
-# TODO
-# Scale all the cells with the correct width
-# Add the charts
-# Add the results table
-# Add the driver table
-# Add the interpolation data
