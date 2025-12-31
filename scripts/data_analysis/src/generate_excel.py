@@ -8,7 +8,8 @@ import xlsxwriter
 #################
 # Input parsing #
 #################
-parser = argparse.ArgumentParser(description = "Analyse the karting data.")
+parser = argparse.ArgumentParser(description = "Analyse the karting data and " +
+                                               "generate an Excel file.")
 
 parser.add_argument("-i", "--input",
                     required = True,
@@ -484,7 +485,7 @@ create_table(worksheet     = worksheet_intermediate,
 # Add the running average lap times chart #
 ###########################################
 chart = workbook.add_chart({"type"    : "scatter",
-                            "subtype" : "smooth"})
+                            "subtype" : "straight"})
 
 for i, team_data in enumerate(karting_data["results"]):
   first_column = i * 5
@@ -539,7 +540,7 @@ worksheet_results.insert_chart(row   = len(total_data) + len(driver_data) + 10,
 # Add the running distance to winner chart #
 ############################################
 chart = workbook.add_chart({"type"    : "scatter",
-                            "subtype" : "smooth"})
+                            "subtype" : "straight"})
 
 for i, team_data in enumerate(karting_data["results"]):
   first_column_label = i * 5
@@ -595,7 +596,7 @@ worksheet_results.insert_chart(row   = len(total_data) + len(driver_data) + 56,
 # Add the running distance to leader chart #
 ############################################
 chart = workbook.add_chart({"type"    : "scatter",
-                            "subtype" : "smooth"})
+                            "subtype" : "straight"})
 
 for i, team_data in enumerate(karting_data["results"]):
   first_column_label = i * 5
@@ -655,7 +656,7 @@ worksheet_results.insert_chart(row   = len(total_data) + len(driver_data) + 102,
 # Add the running average lap times diff chart #
 ################################################
 chart = workbook.add_chart({"type"    : "scatter",
-                            "subtype" : "smooth"})
+                            "subtype" : "straight"})
 
 for i, team_data in enumerate(karting_data["results"]):
   first_column_label = i * 5
