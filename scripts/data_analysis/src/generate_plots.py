@@ -331,7 +331,8 @@ os.makedirs(name     = args.output_folder,
 
 # Generate the docinfo file for the asciidoctor output of the Plotly plots. This
 # contains the header needed to be included in the html
-with open(os.path.join(args.output_folder, "docinfo.html"), 'w') as docinfo_file:
+docinfo_filename = os.path.join(args.output_folder, "docinfo.html")
+with open(docinfo_filename, 'w') as docinfo_file:
   docinfo_file.write("<script src=\"https://cdn.plot.ly/plotly-3.3.0.min.js\"></script>\n")
 
 ####################
@@ -659,6 +660,12 @@ make_html(adoc_title = "Driver karting results",
                         figure_fastest_driver_diff,
                         figure_average_driver_diff],
           filename   = os.path.join(args.output_folder, "driver_karting_results.adoc"))
+
+################
+# Some cleanup #
+################
+# Remove the docinfo file
+os.remove(docinfo_filename)
 
 ###############################
 # Generate the bar-chart-race #
