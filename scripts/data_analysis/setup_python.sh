@@ -15,3 +15,7 @@ python3 -m pip install XlsxWriter
 python3 -m pip install plotly
 python3 -m pip install kaleido
 python3 -m pip install pandas
+python3 -m pip install matplotlib
+
+# Update the PYTHONPATH to use the latest bar_chart_race repo
+export PYTHONPATH="$BAR_CHART_RACE:$PYTHONPATH"

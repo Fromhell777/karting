@@ -24,7 +24,7 @@ args = parser.parse_args()
 ################
 # data parsing #
 ################
-with open(args.input) as data_file:
+with open(args.input, 'r') as data_file:
   karting_data = yaml.safe_load(data_file)
 
 ##########################
@@ -67,6 +67,7 @@ for team_cumulative_times in cumulative_times.values():
 
 all_cumulative_times.sort()
 
+# Here we assume that no team stopped or got disqualified
 interpolated_laps = {}
 for team_name, team_cumulative_times_extended in cumulative_times_extended.items():
   interpolated_laps[team_name] = []
