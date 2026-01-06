@@ -158,6 +158,8 @@ def create_table(worksheet,
   for column in table_options["columns"]:
     column["format"] = cell_format
 
+  table_options["style"] = None
+
   worksheet.add_table(first_row = first_row,
                       first_col = first_column,
                       last_row  = last_row,
