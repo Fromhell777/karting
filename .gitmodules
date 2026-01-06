@@ -1,0 +1,3 @@
+[submodule "external/bar_chart_race"]
+	path = external/bar_chart_race
+	url = git@github.com:Fromhell777/bar_chart_race.git
