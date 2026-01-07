@@ -1,0 +1,345 @@
+race_name: "30 min GP race - 14:12 - Sodi 270cc 20/12/2025"
+results:
+  - team_name: "SanderV"
+    finish_position: 1
+    kart_number: 13
+    distance_to_winner: "0 sec"
+    laps:
+      - {time: 53.756, driver: "SanderV"}
+      - {time: 53.492, driver: "SanderV"}
+      - {time: 53.347, driver: "SanderV"}
+      - {time: 53.463, driver: "SanderV"}
+      - {time: 53.145, driver: "SanderV"}
+      - {time: 52.737, driver: "SanderV"}
+      - {time: 52.595, driver: "SanderV"}
+      - {time: 52.541, driver: "SanderV"}
+      - {time: 52.590, driver: "SanderV"}
+      - {time: 52.987, driver: "SanderV"}
+      - {time: 53.000, driver: "SanderV"}
+      - {time: 52.591, driver: "SanderV"}
+      - {time: 52.564, driver: "SanderV"}
+      - {time: 52.905, driver: "SanderV"}
+      - {time: 52.318, driver: "SanderV"}
+      - {time: 52.651, driver: "SanderV"}
+      - {time: 52.453, driver: "SanderV"}
+      - {time: 52.620, driver: "SanderV"}
+      - {time: 52.518, driver: "SanderV"}
+      - {time: 52.304, driver: "SanderV"}
+      - {time: 52.274, driver: "SanderV"}
+      - {time: 52.298, driver: "SanderV"}
+      - {time: 51.895, driver: "SanderV"}
+      - {time: 51.892, driver: "SanderV"}
+      - {time: 51.961, driver: "SanderV"}
+      - {time: 54.206, driver: "SanderV"}
+      - {time: 52.468, driver: "SanderV"}
+      - {time: 52.458, driver: "SanderV"}
+      - {time: 53.756, driver: "SanderV"}
+      - {time: 52.582, driver: "SanderV"}
+      - {time: 51.880, driver: "SanderV"}
+      - {time: 52.155, driver: "SanderV"}
+      - {time: 52.271, driver: "SanderV"}
+      - {time: 52.401, driver: "SanderV"}
+  - team_name: "InigoM"
+    finish_position: 2
+    kart_number: 18
+    distance_to_winner: "17.945 sec"
+    laps:
+      - {time: 53.684, driver: "InigoM"}
+      - {time: 53.800, driver: "InigoM"}
+      - {time: 53.213, driver: "InigoM"}
+      - {time: 53.614, driver: "InigoM"}
+      - {time: 52.975, driver: "InigoM"}
+      - {time: 53.131, driver: "InigoM"}
+      - {time: 52.803, driver: "InigoM"}
+      - {time: 53.043, driver: "InigoM"}
+      - {time: 53.025, driver: "InigoM"}
+      - {time: 53.045, driver: "InigoM"}
+      - {time: 53.106, driver: "InigoM"}
+      - {time: 53.032, driver: "InigoM"}
+      - {time: 53.001, driver: "InigoM"}
+      - {time: 52.787, driver: "InigoM"}
+      - {time: 53.670, driver: "InigoM"}
+      - {time: 53.131, driver: "InigoM"}
+      - {time: 52.838, driver: "InigoM"}
+      - {time: 52.681, driver: "InigoM"}
+      - {time: 53.403, driver: "InigoM"}
+      - {time: 52.876, driver: "InigoM"}
+      - {time: 52.894, driver: "InigoM"}
+      - {time: 52.814, driver: "InigoM"}
+      - {time: 52.840, driver: "InigoM"}
+      - {time: 52.800, driver: "InigoM"}
+      - {time: 52.859, driver: "InigoM"}
+      - {time: 53.513, driver: "InigoM"}
+      - {time: 52.973, driver: "InigoM"}
+      - {time: 52.914, driver: "InigoM"}
+      - {time: 52.988, driver: "InigoM"}
+      - {time: 54.490, driver: "InigoM"}
+      - {time: 54.186, driver: "InigoM"}
+      - {time: 52.853, driver: "InigoM"}
+      - {time: 54.262, driver: "InigoM"}
+      - {time: 53.339, driver: "InigoM"}
+  - team_name: "LodeH"
+    finish_position: 3
+    kart_number: 3
+    distance_to_winner: "29.983 sec"
+    laps:
+      - {time: 54.529, driver: "LodeH"}
+      - {time: 54.977, driver: "LodeH"}
+      - {time: 54.284, driver: "LodeH"}
+      - {time: 53.786, driver: "LodeH"}
+      - {time: 54.044, driver: "LodeH"}
+      - {time: 54.157, driver: "LodeH"}
+      - {time: 54.279, driver: "LodeH"}
+      - {time: 54.175, driver: "LodeH"}
+      - {time: 53.960, driver: "LodeH"}
+      - {time: 53.330, driver: "LodeH"}
+      - {time: 53.444, driver: "LodeH"}
+      - {time: 53.252, driver: "LodeH"}
+      - {time: 53.292, driver: "LodeH"}
+      - {time: 52.941, driver: "LodeH"}
+      - {time: 53.654, driver: "LodeH"}
+      - {time: 53.903, driver: "LodeH"}
+      - {time: 52.922, driver: "LodeH"}
+      - {time: 53.348, driver: "LodeH"}
+      - {time: 54.503, driver: "LodeH"}
+      - {time: 55.386, driver: "LodeH"}
+      - {time: 52.981, driver: "LodeH"}
+      - {time: 52.714, driver: "LodeH"}
+      - {time: 52.795, driver: "LodeH"}
+      - {time: 53.149, driver: "LodeH"}
+      - {time: 53.523, driver: "LodeH"}
+      - {time: 53.344, driver: "LodeH"}
+      - {time: 52.853, driver: "LodeH"}
+      - {time: 52.987, driver: "LodeH"}
+      - {time: 53.048, driver: "LodeH"}
+      - {time: 52.588, driver: "LodeH"}
+      - {time: 52.709, driver: "LodeH"}
+      - {time: 52.680, driver: "LodeH"}
+      - {time: 52.533, driver: "LodeH"}
+      - {time: 53.752, driver: "LodeH"}
+  - team_name: "YannickD"
+    finish_position: 4
+    kart_number: 14
+    distance_to_winner: "1 lap"
+    laps:
+      - {time: 56.984, driver: "YannickD"}
+      - {time: 55.546, driver: "YannickD"}
+      - {time: 55.318, driver: "YannickD"}
+      - {time: 55.148, driver: "YannickD"}
+      - {time: 55.119, driver: "YannickD"}
+      - {time: 55.190, driver: "YannickD"}
+      - {time: 54.888, driver: "YannickD"}
+      - {time: 55.514, driver: "YannickD"}
+      - {time: 55.210, driver: "YannickD"}
+      - {time: 54.467, driver: "YannickD"}
+      - {time: 54.982, driver: "YannickD"}
+      - {time: 54.654, driver: "YannickD"}
+      - {time: 54.646, driver: "YannickD"}
+      - {time: 54.471, driver: "YannickD"}
+      - {time: 54.403, driver: "YannickD"}
+      - {time: 53.794, driver: "YannickD"}
+      - {time: 53.728, driver: "YannickD"}
+      - {time: 54.221, driver: "YannickD"}
+      - {time: 53.703, driver: "YannickD"}
+      - {time: 53.893, driver: "YannickD"}
+      - {time: 54.309, driver: "YannickD"}
+      - {time: 53.943, driver: "YannickD"}
+      - {time: 54.451, driver: "YannickD"}
+      - {time: 53.495, driver: "YannickD"}
+      - {time: 53.214, driver: "YannickD"}
+      - {time: 53.279, driver: "YannickD"}
+      - {time: 53.826, driver: "YannickD"}
+      - {time: 55.430, driver: "YannickD"}
+      - {time: 53.793, driver: "YannickD"}
+      - {time: 53.882, driver: "YannickD"}
+      - {time: 52.604, driver: "YannickD"}
+      - {time: 53.617, driver: "YannickD"}
+      - {time: 52.991, driver: "YannickD"}
+  - team_name: "NielsS"
+    finish_position: 5
+    kart_number: 19
+    distance_to_winner: "1 lap"
+    laps:
+      - {time: 55.473, driver: "NielsS"}
+      - {time: 55.621, driver: "NielsS"}
+      - {time: 55.246, driver: "NielsS"}
+      - {time: 54.868, driver: "NielsS"}
+      - {time: 55.037, driver: "NielsS"}
+      - {time: 55.202, driver: "NielsS"}
+      - {time: 55.302, driver: "NielsS"}
+      - {time: 55.556, driver: "NielsS"}
+      - {time: 55.256, driver: "NielsS"}
+      - {time: 54.374, driver: "NielsS"}
+      - {time: 55.037, driver: "NielsS"}
+      - {time: 54.679, driver: "NielsS"}
+      - {time: 54.551, driver: "NielsS"}
+      - {time: 54.561, driver: "NielsS"}
+      - {time: 55.686, driver: "NielsS"}
+      - {time: 53.931, driver: "NielsS"}
+      - {time: 53.858, driver: "NielsS"}
+      - {time: 54.055, driver: "NielsS"}
+      - {time: 54.238, driver: "NielsS"}
+      - {time: 55.182, driver: "NielsS"}
+      - {time: 54.729, driver: "NielsS"}
+      - {time: 54.490, driver: "NielsS"}
+      - {time: 55.745, driver: "NielsS"}
+      - {time: 54.180, driver: "NielsS"}
+      - {time: 55.065, driver: "NielsS"}
+      - {time: 54.145, driver: "NielsS"}
+      - {time: 55.037, driver: "NielsS"}
+      - {time: 54.598, driver: "NielsS"}
+      - {time: 54.935, driver: "NielsS"}
+      - {time: 56.305, driver: "NielsS"}
+      - {time: 54.191, driver: "NielsS"}
+      - {time: 54.102, driver: "NielsS"}
+      - {time: 54.212, driver: "NielsS"}
+  - team_name: "GökhanB"
+    finish_position: 6
+    kart_number: 5
+    distance_to_winner: "1 lap"
+    laps:
+      - {time: 57.483, driver: "GökhanB"}
+      - {time: 55.879, driver: "GökhanB"}
+      - {time: 55.837, driver: "GökhanB"}
+      - {time: 55.593, driver: "GökhanB"}
+      - {time: 55.639, driver: "GökhanB"}
+      - {time: 55.209, driver: "GökhanB"}
+      - {time: 55.911, driver: "GökhanB"}
+      - {time: 55.655, driver: "GökhanB"}
+      - {time: 55.379, driver: "GökhanB"}
+      - {time: 55.595, driver: "GökhanB"}
+      - {time: 54.858, driver: "GökhanB"}
+      - {time: 55.692, driver: "GökhanB"}
+      - {time: 55.311, driver: "GökhanB"}
+      - {time: 55.143, driver: "GökhanB"}
+      - {time: 55.151, driver: "GökhanB"}
+      - {time: 54.798, driver: "GökhanB"}
+      - {time: 55.281, driver: "GökhanB"}
+      - {time: 55.668, driver: "GökhanB"}
+      - {time: 55.464, driver: "GökhanB"}
+      - {time: 56.521, driver: "GökhanB"}
+      - {time: 55.413, driver: "GökhanB"}
+      - {time: 55.294, driver: "GökhanB"}
+      - {time: 55.729, driver: "GökhanB"}
+      - {time: 55.575, driver: "GökhanB"}
+      - {time: 56.421, driver: "GökhanB"}
+      - {time: 55.198, driver: "GökhanB"}
+      - {time: 54.422, driver: "GökhanB"}
+      - {time: 54.646, driver: "GökhanB"}
+      - {time: 54.521, driver: "GökhanB"}
+      - {time: 53.971, driver: "GökhanB"}
+      - {time: 54.413, driver: "GökhanB"}
+      - {time: 53.969, driver: "GökhanB"}
+      - {time: 54.803, driver: "GökhanB"}
+  - team_name: "KyleS"
+    finish_position: 7
+    kart_number: 12
+    distance_to_winner: "1 lap"
+    laps:
+      - {time: 55.910, driver: "KyleS"}
+      - {time: 55.617, driver: "KyleS"}
+      - {time: 55.345, driver: "KyleS"}
+      - {time: 56.474, driver: "KyleS"}
+      - {time: 55.425, driver: "KyleS"}
+      - {time: 55.060, driver: "KyleS"}
+      - {time: 54.472, driver: "KyleS"}
+      - {time: 54.574, driver: "KyleS"}
+      - {time: 54.846, driver: "KyleS"}
+      - {time: 54.992, driver: "KyleS"}
+      - {time: 54.615, driver: "KyleS"}
+      - {time: 54.193, driver: "KyleS"}
+      - {time: 54.553, driver: "KyleS"}
+      - {time: 54.580, driver: "KyleS"}
+      - {time: 55.045, driver: "KyleS"}
+      - {time: 53.805, driver: "KyleS"}
+      - {time: 53.961, driver: "KyleS"}
+      - {time: 53.939, driver: "KyleS"}
+      - {time: 54.352, driver: "KyleS"}
+      - {time: 53.754, driver: "KyleS"}
+      - {time: 54.476, driver: "KyleS"}
+      - {time: 53.787, driver: "KyleS"}
+      - {time: 54.410, driver: "KyleS"}
+      - {time: 53.701, driver: "KyleS"}
+      - {time: 88.844, driver: "KyleS"}
+      - {time: 53.436, driver: "KyleS"}
+      - {time: 53.283, driver: "KyleS"}
+      - {time: 52.944, driver: "KyleS"}
+      - {time: 52.908, driver: "KyleS"}
+      - {time: 53.607, driver: "KyleS"}
+      - {time: 53.211, driver: "KyleS"}
+      - {time: 53.769, driver: "KyleS"}
+      - {time: 54.721, driver: "KyleS"}
+  - team_name: "HannesD"
+    finish_position: 8
+    kart_number: 8
+    distance_to_winner: "2 laps"
+    laps:
+      - {time: 58.719, driver: "HannesD"}
+      - {time: 56.668, driver: "HannesD"}
+      - {time: 56.030, driver: "HannesD"}
+      - {time: 55.970, driver: "HannesD"}
+      - {time: 56.590, driver: "HannesD"}
+      - {time: 57.115, driver: "HannesD"}
+      - {time: 56.510, driver: "HannesD"}
+      - {time: 56.993, driver: "HannesD"}
+      - {time: 56.943, driver: "HannesD"}
+      - {time: 57.937, driver: "HannesD"}
+      - {time: 55.548, driver: "HannesD"}
+      - {time: 55.449, driver: "HannesD"}
+      - {time: 56.661, driver: "HannesD"}
+      - {time: 57.370, driver: "HannesD"}
+      - {time: 55.746, driver: "HannesD"}
+      - {time: 54.985, driver: "HannesD"}
+      - {time: 55.128, driver: "HannesD"}
+      - {time: 56.650, driver: "HannesD"}
+      - {time: 57.144, driver: "HannesD"}
+      - {time: 55.101, driver: "HannesD"}
+      - {time: 55.514, driver: "HannesD"}
+      - {time: 57.944, driver: "HannesD"}
+      - {time: 55.482, driver: "HannesD"}
+      - {time: 56.853, driver: "HannesD"}
+      - {time: 56.277, driver: "HannesD"}
+      - {time: 55.154, driver: "HannesD"}
+      - {time: 59.113, driver: "HannesD"}
+      - {time: 56.463, driver: "HannesD"}
+      - {time: 55.583, driver: "HannesD"}
+      - {time: 56.000, driver: "HannesD"}
+      - {time: 55.227, driver: "HannesD"}
+      - {time: 57.004, driver: "HannesD"}
+  - team_name: "DieterV"
+    finish_position: 9
+    kart_number: 17
+    distance_to_winner: "2 laps"
+    laps:
+      - {time: 57.092, driver: "DieterV"}
+      - {time: 56.666, driver: "DieterV"}
+      - {time: 56.533, driver: "DieterV"}
+      - {time: 56.946, driver: "DieterV"}
+      - {time: 57.132, driver: "DieterV"}
+      - {time: 56.464, driver: "DieterV"}
+      - {time: 56.509, driver: "DieterV"}
+      - {time: 56.479, driver: "DieterV"}
+      - {time: 56.050, driver: "DieterV"}
+      - {time: 56.366, driver: "DieterV"}
+      - {time: 55.454, driver: "DieterV"}
+      - {time: 55.462, driver: "DieterV"}
+      - {time: 56.482, driver: "DieterV"}
+      - {time: 55.701, driver: "DieterV"}
+      - {time: 56.333, driver: "DieterV"}
+      - {time: 56.416, driver: "DieterV"}
+      - {time: 56.922, driver: "DieterV"}
+      - {time: 56.054, driver: "DieterV"}
+      - {time: 57.196, driver: "DieterV"}
+      - {time: 55.422, driver: "DieterV"}
+      - {time: 55.525, driver: "DieterV"}
+      - {time: 56.265, driver: "DieterV"}
+      - {time: 55.580, driver: "DieterV"}
+      - {time: 58.514, driver: "DieterV"}
+      - {time: 55.711, driver: "DieterV"}
+      - {time: 55.383, driver: "DieterV"}
+      - {time: 56.433, driver: "DieterV"}
+      - {time: 57.851, driver: "DieterV"}
+      - {time: 55.512, driver: "DieterV"}
+      - {time: 57.643, driver: "DieterV"}
+      - {time: 56.379, driver: "DieterV"}
+      - {time: 56.545, driver: "DieterV"}

@@ -247,6 +247,7 @@ for team_data in karting_data["results"]:
                      team_data["distance_to_winner"]])
 
 team_table_name = "\"team\" & race_results[[#This Row], [Position]] & \"_results"
+number_of_pit_stops = "race_results[[#This Row], [Pit stops]]"
 
 table_options = {"name"    : "race_results",
                  "data"    : total_data,
@@ -267,7 +268,7 @@ table_options = {"name"    : "race_results",
                               {"header"  : "Pit stops",
                                "formula" : f"=COUNTIF(INDIRECT({team_table_name}[Driver]\"), \"Pit\")"},
                               {"header"  : "Average pit time [sec]",
-                               "formula" : "=race_results[[#This Row], [Pit time '[sec']]] / race_results[[#This Row], [Pit stops]]"}]}
+                               "formula" : f"=IF({number_of_pit_stops} = 0, 0, race_results[[#This Row], [Pit time '[sec']]] / {number_of_pit_stops})"}]}
 
 # Slowest lap formula
 for i in range(len(total_data)):
