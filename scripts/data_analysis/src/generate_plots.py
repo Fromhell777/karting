@@ -45,6 +45,11 @@ for team_data in karting_data["results"]:
   if "has_stopped" in team_data and team_data["has_stopped"]:
     team_has_stopped[team_data["team_name"]] = True
 
+lap_times = {}
+for team_data in karting_data["results"]:
+  times = [lap["time"] for lap in team_data["laps"]]
+  lap_times[team_data["team_name"]] = times
+
 lap_drivers = {}
 for team_data in karting_data["results"]:
   drivers = [lap["driver"] for lap in team_data["laps"]]
@@ -394,6 +399,31 @@ def make_html(adoc_title,
   # Remove the Asciidoc file
   os.remove(filename)
 
+##########################
+# Add the lap times plot #
+##########################
+hovertemplate  = "Team: %{fullData.name}<br>"
+hovertemplate += "Time: %{x:.3f} sec<br>"
+hovertemplate += "Lap time: %{y:.3f} sec<br>"
+hovertemplate += "Driver: %{customdata}"
+hovertemplate += "<extra></extra>"
+
+figure_lap_times = plotly_go.Figure()
+
+for team_name, team_lap_times in lap_times.items():
+  figure_lap_times.add_trace(plotly_go.Scatter(name          = team_name,
+                                               x             = cumulative_times[team_name],
+                                               y             = team_lap_times,
+                                               customdata    = lap_drivers[team_name],
+                                               hovertemplate = hovertemplate,
+                                               mode          = "lines"))
+
+setup_figure_layout(figure        = figure_lap_times,
+                    title         = "Lap times",
+                    x_axis_title  = "Time [sec]",
+                    y_axis_title  = "Lap time [sec]",
+                    color_palette = color_palette)
+
 ##########################################
 # Add the running average lap times plot #
 ##########################################
@@ -412,7 +442,6 @@ for team_name, team_running_averages in running_averages.items():
                                                  customdata    = lap_drivers[team_name],
                                                  hovertemplate = hovertemplate,
                                                  mode          = "lines"))
-
 
 setup_figure_layout(figure        = figure_average_lap,
                     title         = "Running average lap times",
@@ -456,7 +485,6 @@ for team_name, team_interpolated_laps in interpolated_laps.items():
                                                      customdata    = drivers,
                                                      hovertemplate = hovertemplate,
                                                      mode          = "lines"))
-
 
 setup_figure_layout(figure        = figure_winner_distance,
                     title         = "Running distance to winner",
@@ -507,7 +535,6 @@ for team_name, team_interpolated_laps in interpolated_laps.items():
                                                      hovertemplate = hovertemplate,
                                                      mode          = "lines"))
 
-
 setup_figure_layout(figure        = figure_leader_distance,
                     title         = "Running distance to leader",
                     x_axis_title  = "Time [sec]",
@@ -547,11 +574,91 @@ for team_name in interpolated_laps.keys():
                                                   hovertemplate = hovertemplate,
                                                   mode          = "lines"))
 
-
 setup_figure_layout(figure        = figure_average_diff,
                     title         = "Diff to total running average lap time",
                     x_axis_title  = "Time [sec]",
                     y_axis_title  = "Diff to total average lap time [sec]",
+                    color_palette = color_palette)
+
+#####################################
+# Add the lap times per driver plot #
+#####################################
+hovertemplate  = "Driver: %{fullData.name}<br>"
+hovertemplate += "Time: %{x:.3f} sec<br>"
+hovertemplate += "Lap time: %{y:.3f} sec<br>"
+hovertemplate += "<extra></extra>"
+
+figure_driver_lap_times = plotly_go.Figure()
+
+for driver_name, driver_lap_times in lap_per_drivers.items():
+  figure_driver_lap_times.add_trace(plotly_go.Scatter(name          = driver_name,
+                                                      x             = cumulative_times_per_driver[driver_name],
+                                                      y             = driver_lap_times,
+                                                      hovertemplate = hovertemplate,
+                                                      mode          = "lines"))
+
+setup_figure_layout(figure        = figure_driver_lap_times,
+                    title         = "Lap times",
+                    x_axis_title  = "Time [sec]",
+                    y_axis_title  = "Lap time [sec]",
+                    color_palette = color_palette)
+
+############################################################
+# Add the lap times per driver plot aligned with race time #
+############################################################
+hovertemplate  = "Driver: %{fullData.name}<br>"
+hovertemplate += "Time: %{x:.3f} sec<br>"
+hovertemplate += "Lap time: %{y:.3f} sec<br>"
+hovertemplate += "<extra></extra>"
+
+figure_driver_lap_times_aligned = plotly_go.Figure()
+
+driver_colors = {}
+driver_rank   = {}
+for i, driver_name in enumerate(all_drivers):
+  driver_rank[driver_name]   = i
+  driver_colors[driver_name] = color_palette[i]
+
+drivers_already_traced = set()
+for team_name, team_lap_times in lap_times.items():
+  team_cumulative_times = cumulative_times[team_name]
+  team_lap_drivers      = lap_drivers[team_name]
+
+  start_index = 0
+  end_index   = 0
+  driver_name = team_lap_drivers[start_index]
+  while end_index < len(team_lap_times):
+    if driver_name != team_lap_drivers[end_index] or \
+       end_index + 1 == len(team_lap_times):
+      if driver_name != "Pit":
+        show_legend = True
+        if driver_name in drivers_already_traced:
+          show_legend = False
+
+        color = driver_colors[driver_name]
+        rank  = driver_rank[driver_name]
+
+        figure_driver_lap_times_aligned.add_trace(plotly_go.Scatter(name          = driver_name,
+                                                                    x             = team_cumulative_times[start_index:end_index],
+                                                                    y             = team_lap_times[start_index:end_index],
+                                                                    hovertemplate = hovertemplate,
+                                                                    mode          = "lines",
+                                                                    line          = {"color" : color},
+                                                                    legendgroup   = driver_name,
+                                                                    legendrank    = rank,
+                                                                    showlegend    = show_legend))
+
+        drivers_already_traced.add(driver_name)
+
+      driver_name = team_lap_drivers[end_index]
+      start_index = end_index
+
+    end_index += 1
+
+setup_figure_layout(figure        = figure_driver_lap_times_aligned,
+                    title         = "Lap times aligned with the race time",
+                    x_axis_title  = "Time [sec]",
+                    y_axis_title  = "Lap time [sec]",
                     color_palette = color_palette)
 
 #####################################################
@@ -570,7 +677,6 @@ for driver_name, driver_running_averages in running_averages_per_driver.items():
                                                         y             = driver_running_averages,
                                                         hovertemplate = hovertemplate,
                                                         mode          = "lines"))
-
 
 setup_figure_layout(figure        = figure_driver_average_lap,
                     title         = "Running average lap times",
@@ -647,7 +753,8 @@ race_name = karting_data["race_name"]
 info_text = f"These are the total karting results of the following race: {race_name}"
 make_html(adoc_title = "Total karting results",
           info_text  = info_text,
-          figures    = [figure_average_lap,
+          figures    = [figure_lap_times,
+                        figure_average_lap,
                         figure_winner_distance,
                         figure_leader_distance,
                         figure_average_diff],
@@ -656,7 +763,9 @@ make_html(adoc_title = "Total karting results",
 info_text = f"These are the individual driver karting results of the following race: {race_name}"
 make_html(adoc_title = "Driver karting results",
           info_text  = info_text,
-          figures    = [figure_driver_average_lap,
+          figures    = [figure_driver_lap_times,
+                        figure_driver_average_lap,
+                        figure_driver_lap_times_aligned,
                         figure_fastest_driver_diff,
                         figure_average_driver_diff],
           filename   = os.path.join(args.output_folder, "driver_karting_results.adoc"))
