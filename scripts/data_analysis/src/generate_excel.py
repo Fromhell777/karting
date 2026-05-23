@@ -120,7 +120,7 @@ merge_format.set_align("center")
 
 # Set the column width
 worksheet_results.set_column(first_col = 0,
-                             last_col  = 11,
+                             last_col  = 12,
                              width     = 30)
 
 worksheet_race_data.set_column(first_col = 0,
@@ -247,6 +247,8 @@ for team_data in karting_data["results"]:
                      team_data["distance_to_winner"]])
 
 team_table_name = "\"team\" & race_results[[#This Row], [Position]] & \"_results"
+team_lap_times = f"INDIRECT({team_table_name}[Lap times '[sec']]\")"
+team_lap_driver = f"INDIRECT({team_table_name}[Driver]\")"
 number_of_pit_stops = "race_results[[#This Row], [Pit stops]]"
 
 table_options = {"name"    : "race_results",
@@ -255,18 +257,20 @@ table_options = {"name"    : "race_results",
                               {"header"  : "Kart number"},
                               {"header"  : "Team"},
                               {"header"  : "Laps [laps]",
-                               "formula" : f"=COUNT(INDIRECT({team_table_name}[Lap times '[sec']]\"))"},
+                               "formula" : f"=COUNT({team_lap_times})"},
                               {"header"  : "Distance"},
                               {"header"  : "Fastest lap [laps]",
-                               "formula" : f"=MIN(INDIRECT({team_table_name}[Lap times '[sec']]\"))"},
+                               "formula" : f"=MIN({team_lap_times})"},
                               {"header"  : "Slowest lap [laps]"},
                               {"header"  : "Average lap [sec]",
-                               "formula" : f"=SUM(INDIRECT({team_table_name}[Lap times '[sec']]\")) / race_results[[#This Row], [Laps '[laps']]]"},
+                               "formula" : f"=AVERAGE({team_lap_times})"},
+                              {"header"  : "Average lap no pit [sec]",
+                               "formula" : f"=AVERAGEIF({team_lap_driver}, \"<>Pit\", {team_lap_times})"},
                               {"header"  : "Standard deviation [sec]"},
                               {"header"  : "Pit time [sec]",
-                               "formula" : f"=SUMIF(INDIRECT({team_table_name}[Driver]\"), \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\"))"},
+                               "formula" : f"=SUMIF({team_lap_driver}, \"Pit\", {team_lap_times})"},
                               {"header"  : "Pit stops",
-                               "formula" : f"=COUNTIF(INDIRECT({team_table_name}[Driver]\"), \"Pit\")"},
+                               "formula" : f"=COUNTIF({team_lap_driver}, \"Pit\")"},
                               {"header"  : "Average pit time [sec]",
                                "formula" : f"=IF({number_of_pit_stops} = 0, 0, race_results[[#This Row], [Pit time '[sec']]] / {number_of_pit_stops})"}]}
 
@@ -274,13 +278,13 @@ table_options = {"name"    : "race_results",
 for i in range(len(total_data)):
   worksheet_results.write_formula(row     = i + 2,
                                   col     = 6,
-                                  formula = f"{{=MAX(IF(INDIRECT({team_table_name}[Driver]\") <> \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\")))}}")
+                                  formula = f"{{=MAX(IF({team_lap_driver} <> \"Pit\", {team_lap_times}))}}")
 
 # Standard deviation formula
 for i in range(len(total_data)):
   worksheet_results.write_formula(row     = i + 2,
-                                  col     = 8,
-                                  formula = f"{{=STDEV.S(IF(INDIRECT({team_table_name}[Driver]\") <> \"Pit\", INDIRECT({team_table_name}[Lap times '[sec']]\")))}}")
+                                  col     = 9,
+                                  formula = f"{{=STDEV.S(IF({team_lap_driver} <> \"Pit\", {team_lap_times}))}}")
 
 create_table(worksheet     = worksheet_results,
              table_options = table_options,
