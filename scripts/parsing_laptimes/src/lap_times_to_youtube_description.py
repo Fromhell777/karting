@@ -131,6 +131,7 @@ if args.format == "default":
 
     if lap_index == best_lap_index:
       lap_time_str = f"*{lap_time_str}*"
+      youtube_description += "  "
 
     youtube_description += f"{lap_time_str:>{lap_time_size}}\n"
     running_time += lap_time
@@ -186,6 +187,7 @@ elif args.format in ("with_sectors", "wik"):
 
       if lap_index == best_sector_index[sector_index]:
         sector_time_str = f"*{sector_time_str}*"
+        youtube_description += "  "
 
       youtube_description += f"{sector_time_str:>{sector_size}} "
 
@@ -193,6 +195,7 @@ elif args.format in ("with_sectors", "wik"):
 
     if lap_index == best_lap_index:
       lap_time_str = f"*{lap_time_str}*"
+      youtube_description += "  "
 
     youtube_description += f"{lap_time_str:>{lap_time_size}}\n"
     running_time += lap_time
