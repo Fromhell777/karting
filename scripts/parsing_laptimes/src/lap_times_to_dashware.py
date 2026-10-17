@@ -40,9 +40,9 @@ for lap_time in lap_data_contents:
   milliseconds = milliseconds.replace('.', '')
   milliseconds = int(milliseconds)
 
-  if len(lap_time_parts) > 2:
+  if len(lap_time_parts) > 1:
     minutes = int(lap_time_parts[-2])
-    milliseconds += 60_000 * minutes
+    milliseconds += 60 * 1000 * minutes
 
   lap_data.append(milliseconds)
 
@@ -57,7 +57,7 @@ def lap_time_to_str(lap_time):
   milliseconds = lap_time % 1000
 
   if hours != 0:
-    return f"{hours:02}{minutes:02}:{seconds:02}.{milliseconds:03}"
+    return f"{hours:02}:{minutes:02}:{seconds:02}.{milliseconds:03}"
 
   if minutes != 0:
     return f"{minutes:02}:{seconds:02}.{milliseconds:03}"
@@ -69,12 +69,12 @@ csv_contents = "Time, Lap count\n"
 running_time = 0
 for i, lap_time in enumerate(lap_data):
 
-  csv_contents += f"{lap_time_to_str(running_time)}, {i}\n"
+  csv_contents += f"{lap_time_to_str(running_time)}, {i + 1}\n"
   running_time += lap_time
-  csv_contents += f"{lap_time_to_str(running_time - 1)}, {i}\n"
+  csv_contents += f"{lap_time_to_str(running_time - 1)}, {i + 1}\n"
 
   if i + 1 == len(lap_data):
-    csv_contents += f"{lap_time_to_str(running_time)}, {i}\n"
+    csv_contents += f"{lap_time_to_str(running_time)}, {i + 1}\n"
 
 ################################
 # Write the CSV data to a file #
